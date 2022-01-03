@@ -6,6 +6,8 @@ This gives you the equivalent of a time machine for your outlines, complete with
 
 You can also upload individual Drummer files to GitHub, which can be useful for sharing your outlines with others.
 
+Roady is currently at version 0.1.0, which means it is brand new.
+
 ## To install the 🎒Roady menu
 Follow these steps to copy the latest version of the  🎒Roady menu from GitHub into your Scripts menu file
 1. File → Open URL…  `https://raw.githubusercontent.com/PostMonsterG/Roady/main/Roady.opml`
