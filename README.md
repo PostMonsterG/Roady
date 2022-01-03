@@ -30,18 +30,18 @@ These are incremental backups, only those files modified or created since the la
 - Path to a folder in the repository, e.g., `mybackups`
 
 #### To configure Roady and connect Drummer to GitHub
-1. 🎒→ Preferences → Configure GitHub Username… 
-2. 🎒→ Preferences → Configure Backups Repository… 
-3. 🎒→ Preferences → Configure Backups Path… 
-4. 🎒→ Status → Connect to GitHub… 
+1. 🎒 Preferences → Configure GitHub Username… 
+2. 🎒 Preferences → Configure Backups Repository… 
+3. 🎒 Preferences → Configure Backups Path… 
+4. 🎒 Status → Connect to GitHub… 
 
 #### To back up your files
-1. 🎒→ Back Up Now 
+1. 🎒 Back Up Now 
 
 Roady logs information to the console about the files it has uploaded. Look for the backpack emoji.
 
 ## To enable automatic backups
-Roady will back up your files to GitHub each time you select the 🎒→ <b>Back Up Now</b> command. You can enable automatic backups by copying this command into Drummer's scheduler. 
+Roady will back up your files to GitHub each time you select the 🎒 <b>Back Up Now</b> command. You can enable automatic backups by copying this command into Drummer's scheduler. 
 1. File → Special Files... → Scripts menu… 
 2. Select the <b>Back Up Now</b> node 
 3.  Copy (⌘C)
@@ -57,7 +57,7 @@ Roady does not have any special features for restoring files from GitHub. For no
 
 ## To upload a Drummer file to GitHub
 Roady lets you upload individual Drummer files to GitHub. This is a separate thing from backups—it is for sharing your outlines with others. 
-1.  🎒→ Upload Current Tab… 
+1.  🎒 Upload Current Tab… 
 
 Roady  looks for header elements in the OPML to determine where to save the file and how it is processed. 
 - `rd-repository`
@@ -82,7 +82,7 @@ Suitable for JavaScript, the text from the nodes of the outline will be included
 
 ## What Roady does with your data 
 - <i>Important: </i>Roady uploads your files to GitHub. Roady cannot tell, and will not warn you, if you upload private files to a public repository.
-- You install Roady by copying an outline of menu items into Drummer's scripts menu, and optionally, by copying the 🎒→ <b>Back Up Now</b> command into Drummer's scheduler. You can uninstall or disable Roady by removing or commenting-out these items.
+- You install Roady by copying an outline of menu items into Drummer's scripts menu, and optionally, by copying the 🎒 <b>Back Up Now</b> command into Drummer's scheduler. You can uninstall or disable Roady by removing or commenting-out these items.
 - Roady stores settings and status information in your web browser's local storage. This remains after you remove Roady from your scripts menu and scheduler. Your web browser will have controls for managing this data.
 - Roady treats GitHub as a write-only file system. It commits everything to the main branch, and does not understand revisions, history, or the difference between public and private repositories. Roady is not appropriate for use as a general-purpose client for GitHub.
 
