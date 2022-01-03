@@ -6,16 +6,13 @@ This gives you the equivalent of a time machine for your outlines, complete with
 
 You can also upload individual Drummer files to GitHub, which can be useful for sharing your outlines with others.
 
-
 ## To install the 🎒Roady menu
 Follow these steps to copy the latest version of the  🎒Roady menu from GitHub into your Scripts menu file
-1. <b>File </b>→<b> Open URL… </b>
-1.  `https://raw.githubusercontent.com/PostMonsterG/Roady/main/Roady.opml`
-1. The OPML outline containing Roady's menu will open in a new tab.
-1. Select the entire outline, i.e., the 🎒 node that contains everything
-1. Copy (⌘C)
-1. <b>File </b>→<b> Special Files… </b>→<b> Scripts menu... </b>
-1. Paste (⌘V) 
+1. File → Open URL…  `https://raw.githubusercontent.com/PostMonsterG/Roady/main/Roady.opml`
+2. Select the entire outline, i.e., the 🎒 node that contains everything
+3. Copy (⌘C)
+4. File → Special Files… → Scripts menu... 
+5. Paste (⌘V) 
 
 You should now have a new 🎒 menu. The backpack is just an emoji, you can name the menu anything you like, including "Roady".
 You can uninstall Roady by deleting this entry in your scripts menu, or temporarily disable it by commenting it out. 
@@ -31,31 +28,35 @@ These are incremental backups, only those files modified or created since the la
 - Path to a folder in the repository, e.g., `mybackups`
 
 #### To configure Roady and connect Drummer to GitHub
-1. <b>🎒</b>→<b> Preferences </b>→<b> Configure GitHub Username… </b>
-1. <b>🎒</b>→<b> Preferences </b>→<b> Configure Backups Repository… </b>
-1. <b>🎒</b>→<b> Preferences </b>→<b> Configure Backups Path… </b>
-1. <b>🎒</b>→<b> Status </b>→<b> Connect to GitHub… </b>
+1. 🎒→ Preferences → Configure GitHub Username… 
+2. 🎒→ Preferences → Configure Backups Repository… 
+3. 🎒→ Preferences → Configure Backups Path… 
+4. 🎒→ Status → Connect to GitHub… 
 
 #### To back up your files
-1. <b>🎒</b>→<b> Back Up Now </b>
+1. 🎒→ Back Up Now 
 
 Roady logs information to the console about the files it has uploaded. Look for the backpack emoji.
 
 
-## To enable automatic backups
-Roady will back up your files to GitHub each time you select the 🎒→ <b>Back Up Now</b> command. You can enable continuous, automatic, backups by copying this command into Drummer's scheduler under the `everyMinute` heading. 
-1. <b>File </b>→<b> Special Files... </b>→<b> Scripts menu… </b>
-1. Select the `Back Up Now` node 
-1.  Copy (⌘C)
-1.  <b>File </b>→<b> Special Files... </b>→<b> Scheduler… </b>
-1.  Ensure there is a top-level, uncommented, node named `everyMinute`
-1.  Paste (⌘V) the `Back Up Now` item under that heading
+## To restore your files
+Roady does not have any special features for restoring files from GitHub. For now, do this by hand.
 
+## To enable automatic backups
+Roady will back up your files to GitHub each time you select the 🎒→ <b>Back Up Now</b> command. You can enable automatic backups by copying this command into Drummer's scheduler. 
+1. File → Special Files... → Scripts menu… 
+2. Select the <b>Back Up Now</b> node 
+3.  Copy (⌘C)
+4.  File → Special Files... → Scheduler… 
+5.  Ensure there is a top-level, uncommented, node named `everyMinute`
+6.  Paste (⌘V) the <b>Back Up Now</b> item under that heading
+
+You can turn off automatic backups by deleting this item from Drummer's scheduler, or temporarily disable them by commenting it out.
 Roady logs information to the console about the files it has uploaded. Look for the backpack emoji.
 
 ## To upload a Drummer file to GitHub
-Roady lets you upload individual Drummer files to GitHub. This is separate from backups—it is for sharing your code with others. 
-1.  <b>🎒</b>→<b> Upload Current Tab… </b>
+Roady lets you upload individual Drummer files to GitHub. This is a separate thing from backups—it is for sharing your outlines with others. 
+1.  🎒→ Upload Current Tab… 
 
 Roady  looks for header elements in the OPML to determine where to save the file and how it is processed. 
 - `rd-repository`
@@ -79,12 +80,12 @@ Suitable for Markdown, the text from the nodes of the outline will be included, 
 Suitable for JavaScript, the text from the nodes of the outline will be included, with indentation per OPML indentation level
 
 ## What Roady does with your data 
-- <i>Important: </i>Roady saves your files to GitHub. Roady cannot tell, and will not warn you, if you upload private files to a public repository.
-- You install Roady by copying an outline of menu items into Drummer's scripts menu, and optionally, by copying the Back Up Now command into Drummer's scheduler. You can uninstall or disable Roady by removing or commenting-out these items.
+- <i>Important: </i>Roady uploads your files to GitHub. Roady cannot tell, and will not warn you, if you upload private files to a public repository.
+- You install Roady by copying an outline of menu items into Drummer's scripts menu, and optionally, by copying the <b>Back Up Now</b> command into Drummer's scheduler. You can uninstall or disable Roady by removing or commenting-out these items.
 - Roady stores settings and status information in your web browser's local storage. This remains after you remove Roady from your scripts menu and scheduler. Your web browser will have controls for managing this data.
-- Roady treats GitHub as a write-only file system. It commits everything to the main branch, and does not understand revisions, history, or the difference between public and private repositories. Roady is not appropriate for use as a general-purpose client for GitHub. For details on what Roady can and cannot do, see Drummer's documentation.
+- Roady treats GitHub as a write-only file system. It commits everything to the main branch, and does not understand revisions, history, or the difference between public and private repositories. Roady is not appropriate for use as a general-purpose client for GitHub.
 
 ## Notes
 - Drummer is a scriptable outliner, created by Dave Winer, and hosted at http://drummer.scripting.com
 - Roady is written in Drumkit, the scripting language for Drummer, which is based on JavaScript. The native file format for Drumkit is OPML.
-- Roady was created by Gary Teter, who has a blog at http://oldschool.scripting.com/PostMonsterG and is on Twitter `@PostMonsterG`
+- Roady was created by Gary Teter, who has a blog at http://oldschool.scripting.com/PostMonsterG and is on Twitter `@PostMonsterG`.
