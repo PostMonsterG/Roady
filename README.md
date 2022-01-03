@@ -40,10 +40,6 @@ These are incremental backups, only those files modified or created since the la
 
 Roady logs information to the console about the files it has uploaded. Look for the backpack emoji.
 
-
-## To restore your files
-Roady does not have any special features for restoring files from GitHub. For now, do this by hand.
-
 ## To enable automatic backups
 Roady will back up your files to GitHub each time you select the 🎒→ <b>Back Up Now</b> command. You can enable automatic backups by copying this command into Drummer's scheduler. 
 1. File → Special Files... → Scripts menu… 
@@ -55,6 +51,9 @@ Roady will back up your files to GitHub each time you select the 🎒→ <b>Back
 
 You can turn off automatic backups by deleting this item from Drummer's scheduler, or temporarily disable them by commenting it out.
 Roady logs information to the console about the files it has uploaded. Look for the backpack emoji.
+
+## To restore your files
+Roady does not have any special features for restoring files from GitHub. For now, do this by hand.
 
 ## To upload a Drummer file to GitHub
 Roady lets you upload individual Drummer files to GitHub. This is a separate thing from backups—it is for sharing your outlines with others. 
