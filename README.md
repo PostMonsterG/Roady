@@ -1,4 +1,4 @@
-# 🎒Roady
+# 🎒 Roady
 Roady adds features to Drummer to make it easier to work with GitHub.
 
 The key feature is continuous, automatic backup of your Drummer files to GitHub. 
@@ -8,8 +8,8 @@ You can also upload individual Drummer files to GitHub, which can be useful for 
 
 Roady is currently at version 0.1.0, which means it is brand new.
 
-## To install the 🎒Roady menu
-Follow these steps to copy the latest version of the  🎒Roady menu from GitHub into your Scripts menu file
+## To install the 🎒 Roady menu
+Follow these steps to copy the latest version of the  🎒 Roady menu from GitHub into your Scripts menu file
 1. File → Open URL…  `https://raw.githubusercontent.com/PostMonsterG/Roady/main/Roady.opml`
 2. Select the entire outline, i.e., the 🎒 node that contains everything
 3. Copy (⌘C)
@@ -82,7 +82,7 @@ Suitable for JavaScript, the text from the nodes of the outline will be included
 
 ## What Roady does with your data 
 - <i>Important: </i>Roady uploads your files to GitHub. Roady cannot tell, and will not warn you, if you upload private files to a public repository.
-- You install Roady by copying an outline of menu items into Drummer's scripts menu, and optionally, by copying the <b>Back Up Now</b> command into Drummer's scheduler. You can uninstall or disable Roady by removing or commenting-out these items.
+- You install Roady by copying an outline of menu items into Drummer's scripts menu, and optionally, by copying the 🎒→ <b>Back Up Now</b> command into Drummer's scheduler. You can uninstall or disable Roady by removing or commenting-out these items.
 - Roady stores settings and status information in your web browser's local storage. This remains after you remove Roady from your scripts menu and scheduler. Your web browser will have controls for managing this data.
 - Roady treats GitHub as a write-only file system. It commits everything to the main branch, and does not understand revisions, history, or the difference between public and private repositories. Roady is not appropriate for use as a general-purpose client for GitHub.
 
