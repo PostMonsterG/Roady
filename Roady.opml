@@ -10,9 +10,9 @@
 		<ownerName>Gary Teter</ownerName>
 		<ownerId>http://twitter.com/PostMonsterG</ownerId>
 		<urlUpdateSocket>ws://drummer.scripting.com:1232/</urlUpdateSocket>
-		<dateModified>Tue, 04 Jan 2022 20:05:02 GMT</dateModified>
-		<expansionState></expansionState>
-		<lastCursor>0</lastCursor>
+		<dateModified>Tue, 04 Jan 2022 20:06:24 GMT</dateModified>
+		<expansionState>1,4</expansionState>
+		<lastCursor>8</lastCursor>
 		</head>
 	<body>
 		<outline text="🎒" created="Sat, 01 Jan 2022 19:17:05 GMT" flSubMenu="true" isComment="false">
@@ -169,8 +169,8 @@
 							<outline text="const message =  string.randomSnarkySlogan()" created="Fri, 24 Dec 2021 20:45:56 GMT"/>
 							<outline text="const result = github.upload ( username, repository, path, data, message )" created="Fri, 24 Dec 2021 20:32:48 GMT" isComment="false"/>
 							<outline text="const status = result[ &quot;statusCode&quot; ]" created="Fri, 31 Dec 2021 03:13:09 GMT"/>
-							<outline text="console.log( &quot;🎒 0.1.1 — Upload Current Tab — Result from uploading file  to &quot; + repository + &quot; at &quot; + path + &quot; is &quot; + JSON.stringify( result )  )" created="Fri, 31 Dec 2021 11:04:11 GMT" isComment="false"/>
-							<outline text="console.log( &quot;🎒 0.1.1 — Upload Current Tab — Status from uploading file  to &quot; + repository + &quot; at &quot; + path + &quot; is &quot; + status )" created="Fri, 31 Dec 2021 11:04:11 GMT" isComment="false"/>
+							<outline text="console.log( &quot;🎒 0.1.1 — Upload Current Tab — Result from uploading file to &quot; + repository + &quot; at &quot; + path + &quot; is &quot; + JSON.stringify( result )  )" created="Fri, 31 Dec 2021 11:04:11 GMT" isComment="false"/>
+							<outline text="console.log( &quot;🎒 0.1.1 — Upload Current Tab — Status from uploading file to &quot; + repository + &quot; at &quot; + path + &quot; is &quot; + status )" created="Fri, 31 Dec 2021 11:04:11 GMT" isComment="false"/>
 							<outline text="dialog.alert( &quot;🎒 Status from uploading tab to GitHub: &quot; + status )" created="Fri, 31 Dec 2021 03:10:32 GMT"/>
 							<outline text="}" created="Fri, 24 Dec 2021 20:49:50 GMT"/>
 							</outline>
