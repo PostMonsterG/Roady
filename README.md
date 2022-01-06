@@ -5,9 +5,12 @@ This gives you the equivalent of a time machine for your outlines, complete with
 
 You can also upload individual Drummer files to GitHub, which can be useful for sharing your outlines with others.
 
-Roady is currently at version 0.1.1, which is its second release.
+Roady is currently at version 0.2.0.
 
-<div align="center"><img width="473" alt="RoadyMenu" src="https://user-images.githubusercontent.com/93412909/148130560-c90996b3-1540-4f84-9f57-7b1d44266228.png"></div>
+<div align="center">
+	<img width="320" alt="RoadyMenu-020" 
+	     src="https://user-images.githubusercontent.com/93412909/148423124-03f26c0d-11c9-4a79-9450-6f07eec3ccc4.png">
+</div>
 
 
 ## To install the 🎒 Roady menu
@@ -43,17 +46,24 @@ These are incremental backups, only those files modified or created since the la
 Roady logs information to the console about the files it has uploaded. Look for the backpack emoji.
 
 ## To enable automatic backups
-Roady will back up your files to GitHub each time you select the 🎒 <b>Back Up Now</b> command. You can enable automatic backups by copying this command into Drummer's scheduler. 
+Roady will back up your files to GitHub each time you select the 🎒 **Back Up Now** command. You can enable automatic backups by copying this command into Drummer's scheduler. 
 1. File → Special Files... → Scripts menu… 
-2. Select the <b>Back Up Now</b> node 
-3.  Copy (⌘C)
-4.  File → Special Files... → Scheduler… 
-5.  Ensure there is a top-level, uncommented, node named `everyMinute`
-6.  Paste (⌘V) the <b>Back Up Now</b> item under that heading
+2. Select the **Back Up Now** node 
+3. Copy (⌘C)
+4. File → Special Files... → Scheduler… 
+5. Ensure there is a top-level, uncommented, node named `everyMinute`
+6. Paste (⌘V) the **Back Up Now** item under that heading
 
 You can turn off automatic backups by deleting this item from Drummer's scheduler, or temporarily disable them by commenting it out.
 Roady logs information to the console about the files it has uploaded. Look for the backpack emoji.
 
+## To verify backups status
+Roady can show you when it last scanned for changes, and when, and how many, files it last backed up.
+1. 🎒 Status → Backup Status… 
+<img width="398" alt="BackupStatusDialog-020" src="https://user-images.githubusercontent.com/93412909/148423633-c47b07d3-da99-41af-9539-815c345f6220.png">
+	
+	
+	
 ## To restore your files
 Roady does not have any special features for restoring files from GitHub. For now, do this by hand.
 
@@ -82,28 +92,51 @@ Suitable for Markdown, the text from the nodes of the outline will be included, 
     - `indented`
 Suitable for JavaScript, the text from the nodes of the outline will be included, with indentation per OPML indentation level
 
+## To update Roady
+The latest version of Roady is available on GitHub. You update Roady by removing or commenting-out the old version, and installing the latest version.
+1. 🎒 Check for Updates…
+2. 🎒 Help → Get Latest Roady 
+3. Select the entire outline, i.e., the 🎒 node that contains everything
+4. Copy (⌘C)
+5. File → Special Files… → Scripts menu... 
+2. Select the old 🎒node 
+3. Reorg → Toggle Comment _or_ Reorg → Delete Line
+6. Paste (⌘V)
+
+If you have enabled automatic backups, you must also update the scheduler.
+1. File → Special Files... → Scripts menu… 
+2. Select the new **Back Up Now** node 
+3. Copy (⌘C)
+4. File → Special Files... → Scheduler… 
+5. Select the old **Back Up Now** node
+3. Reorg → Toggle Comment _or_ Reorg → Delete Line
+6. Paste (⌘V) the new **Back Up Now** item under `everyMinute`
+
+
 ## To uninstall Roady
 You can uninstall or disable Roady by removing or commenting-out items the items you added to Drummer's scripts menu and scheduler.
 
- #### To delete the 🎒Roady menu 
+#### To delete the 🎒Roady menu 
 1. File → Special Files… → Scripts menu... 
 2. Select the 🎒node 
-3. Reorg → Delete Line
+3. Reorg → Toggle Comment _or_ Reorg → Delete Line
 
+	
 #### To disable automatic backups
-1.  File → Special Files... → Scheduler… 
-2. Select the <b>Back Up Now</b> node
-3. Reorg → Delete Line
+1. File → Special Files... → Scheduler… 
+2. Select the **Back Up Now** node
+3. Reorg → Toggle Comment _or_ Reorg → Delete Line
 	
   
 ## What Roady does with your data 
-- <i>Important: </i>Roady uploads your files to GitHub. Roady cannot tell, and will not warn you, if you upload private files to a public repository.
+- *Important:* Roady uploads your files to GitHub. Roady cannot tell, and will not warn you, if you upload private files to a public repository.
 - Roady stores settings and status information in your web browser's local storage. This remains after you remove Roady from your scripts menu and scheduler. Your web browser will have controls for managing this data.
 - Roady treats GitHub as a write-only file system. It commits everything to the main branch, and does not understand revisions, history, or the difference between public and private repositories. Roady is not appropriate for use as a general-purpose client for GitHub.
 
 ## Release history
 - `0.1.0` Hello, Roady!
 - `0.1.1` Stop doing that — Bug fixes, improvements to performance and logging.
+- `0.2.0` Get the now — Check for updates, backup status, help menu.
 	
 ## Notes
 - Drummer is a scriptable outliner, created by Dave Winer, and hosted at http://drummer.scripting.com
