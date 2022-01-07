@@ -105,15 +105,20 @@ Suitable for Markdown, the text from the nodes of the outline will be included, 
 Suitable for JavaScript, the text from the nodes of the outline will be included, with indentation per OPML indentation level.
 
 ## To update Roady
-The latest version of Roady is available on GitHub. You update Roady by removing or commenting-out the old version, and installing the latest version.
+The latest version of Roady is available on GitHub. Roady can check to see if it needs updating.
 1. 🎒 Check for Updates…
-2. 🎒 Help → Get Latest Roady 
-3. Select the entire outline, i.e., the 🎒 node that contains everything
-4. Copy (⌘C)
-5. File → Special Files… → Scripts menu... 
-2. Select the old 🎒node 
-3. Reorg → Toggle Comment _or_ Reorg → Delete Line
-6. Paste (⌘V)
+
+You can see what the latest version of Roady looks like, without having to install it.
+1. 🎒 Help → Get Latest Roady 
+
+You update Roady by removing or commenting-out the old version, and installing the latest version.
+1. 🎒 Help → Get Latest Roady 
+2. Select the entire outline, i.e., the 🎒 node that contains everything
+3. Copy (⌘C)
+4. File → Special Files… → Scripts menu... 
+5. Select the old 🎒node 
+6. Reorg → Toggle Comment _or_ Reorg → Delete Line
+7. Paste (⌘V)
 
 If you have enabled automatic backups, you must also update the scheduler.
 1. File → Special Files... → Scripts menu… 
@@ -126,7 +131,7 @@ If you have enabled automatic backups, you must also update the scheduler.
 
 
 ## To uninstall Roady
-You can uninstall or disable Roady by removing or commenting-out items the items you added to Drummer's scripts menu and scheduler.
+You can uninstall or disable Roady by removing or commenting-out the items you added to Drummer's scripts menu and scheduler.
 
 #### To delete the 🎒Roady menu 
 1. File → Special Files… → Scripts menu... 
