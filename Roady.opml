@@ -1,4 +1,4 @@
-<?xml version="1.0"?>
+<?xml version="1.0" encoding="ISO-8859-1"?>
 <opml version="2.0">
 	<head>
 		<title>Roady</title>
@@ -6,394 +6,517 @@
 		<rd-repository>Roady</rd-repository>
 		<rd-path>Roady.opml</rd-path>
 		<rd-type>opml</rd-type>
-		<rd-roady-version>0.2.0</rd-roady-version>
+		<rd-roady-version>0.3.0</rd-roady-version>
 		<ownerTwitterScreenName>PostMonsterG</ownerTwitterScreenName>
 		<ownerName>Gary Teter</ownerName>
 		<ownerId>http://twitter.com/PostMonsterG</ownerId>
-		<dateModified>Thu, 06 Jan 2022 17:56:28 GMT</dateModified>
+		<dateModified>Fri, 07 Jan 2022 06:47:01 GMT</dateModified>
 		<expansionState>1,4</expansionState>
 		<lastCursor>0</lastCursor>
 		</head>
 	<body>
-		<outline text="🎒" created="Sat, 01 Jan 2022 19:17:05 GMT" flSubMenu="true" isComment="false">
-			<outline text="Roady — Tools for working with GitHub. Version 0.2.0  " created="Wed, 05 Jan 2022 07:23:30 GMT" isComment="true"/>
-			<outline text="Copyright © 2022 Gary Teter" created="Wed, 05 Jan 2022 07:14:17 GMT" isComment="true">
-				<outline text="Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the &quot;Software&quot;), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions:" created="Wed, 05 Jan 2022 07:14:07 GMT" isComment="true"/>
-				<outline text="The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software." created="Wed, 05 Jan 2022 07:14:09 GMT" isComment="true"/>
-				<outline text="THE SOFTWARE IS PROVIDED &quot;AS IS&quot;, WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE." created="Wed, 05 Jan 2022 07:14:11 GMT" isComment="true"/>
+		<outline text="🎒" created="Sat, 01 Jan 2022 19:17:05 GMT" flSubMenu="true" isComment="false" >
+			<outline text="Roady — Tools for working with GitHub. Version 0.3.0  " created="Wed, 05 Jan 2022 07:23:30 GMT" isComment="true" />
+			<outline text="Copyright © 2022 Gary Teter" created="Wed, 05 Jan 2022 07:14:17 GMT" isComment="true" >
+				<outline text="Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the &quot;Software&quot;), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions:" created="Wed, 05 Jan 2022 07:14:07 GMT" isComment="true" />
+				<outline text="The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software." created="Wed, 05 Jan 2022 07:14:09 GMT" isComment="true" />
+				<outline text="THE SOFTWARE IS PROVIDED &quot;AS IS&quot;, WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE." created="Wed, 05 Jan 2022 07:14:11 GMT" isComment="true" />
 				</outline>
-			<outline text="For complete instructions, see https://github.com/PostMonsterG/Roady" created="Mon, 03 Jan 2022 08:14:20 GMT" isComment="true">
-				<outline text="To install the 🎒Roady menu" created="Mon, 03 Jan 2022 02:45:38 GMT">
-					<outline text="Select this entire outline, i.e., the 🎒 node above, which contains everything" created="Mon, 22 Nov 2021 01:30:51 GMT" isComment="false"/>
-					<outline text="Copy (⌘C)" created="Mon, 22 Nov 2021 01:34:09 GMT" isComment="false"/>
-					<outline text="File → Special Files… → Scripts menu... " created="Sun, 21 Nov 2021 01:54:15 GMT" isComment="false"/>
-					<outline text="Paste (⌘V) " created="Sun, 21 Nov 2021 01:55:14 GMT" isComment="false"/>
-					<outline text="You can uninstall it by deleting it, or commenting it out." created="Thu, 06 Jan 2022 00:43:56 GMT"/>
+			<outline text="For complete instructions, see https://github.com/PostMonsterG/Roady" created="Mon, 03 Jan 2022 08:14:20 GMT" isComment="true" >
+				<outline text="To install the 🎒Roady menu" created="Mon, 03 Jan 2022 02:45:38 GMT" >
+					<outline text="Select this entire outline, i.e., the 🎒 node above, which contains everything" created="Mon, 22 Nov 2021 01:30:51 GMT" isComment="false" />
+					<outline text="Copy (⌘C)" created="Mon, 22 Nov 2021 01:34:09 GMT" isComment="false" />
+					<outline text="File → Special Files… → Scripts menu... " created="Sun, 21 Nov 2021 01:54:15 GMT" isComment="false" />
+					<outline text="Paste (⌘V) " created="Sun, 21 Nov 2021 01:55:14 GMT" isComment="false" />
+					<outline text="You can uninstall it by deleting it, or commenting it out." created="Thu, 06 Jan 2022 00:43:56 GMT" />
 					</outline>
-				<outline text="To enable automatic backups" created="Mon, 03 Jan 2022 02:46:15 GMT">
-					<outline text="Select the &lt;b&gt;Back Up Now&lt;/b&gt; node, below " created="Mon, 03 Jan 2022 02:51:30 GMT"/>
-					<outline text="Copy (⌘C)" created="Mon, 22 Nov 2021 01:34:09 GMT" isComment="false"/>
-					<outline text="File → Special Files... → Scheduler… " created="Sun, 21 Nov 2021 01:54:15 GMT" isComment="false"/>
-					<outline text="Ensure there is a top-level, uncommented, node named &lt;i&gt;everyMinute&lt;/i&gt;" created="Mon, 03 Jan 2022 02:53:18 GMT"/>
-					<outline text="Paste (⌘V) the &lt;b&gt;Back Up Now&lt;/b&gt; item under that heading" created="Sun, 21 Nov 2021 01:55:14 GMT" isComment="false"/>
-					<outline text="You can disable automatic backups by deleting this entry, or commenting it out." created="Thu, 06 Jan 2022 00:43:56 GMT"/>
-					</outline>
-				</outline>
-			<outline text="About Roady…" created="Thu, 09 Dec 2021 06:44:28 GMT" isComment="false">
-				<outline text="const roadyversion = &quot;0.2.0&quot;" created="Wed, 05 Jan 2022 05:08:07 GMT"/>
-				<outline text="const version = &quot;🎒 Roady — Tools for working with GitHub. Version &quot; + roadyversion " created="Fri, 29 Oct 2021 00:33:04 GMT"/>
-				<outline text="console.log( version )" created="Fri, 10 Dec 2021 03:05:13 GMT"/>
-				<outline text="dialog.alert( version )" created="Fri, 10 Dec 2021 03:04:11 GMT" isComment="false"/>
-				</outline>
-			<outline text="-" created="Sun, 02 Jan 2022 03:30:18 GMT"/>
-			<outline text="Back Up Now" created="Wed, 08 Dec 2021 19:46:16 GMT" isComment="false">
-				<outline text="Roady will back up your Drummer files which have changed since the last backup." created="Fri, 31 Dec 2021 03:05:31 GMT" isComment="true"/>
-				<outline text="You can copy this menu item into Drummer's scheduler to enable continuous, automatic backups." created="Mon, 03 Jan 2022 07:59:01 GMT" isComment="true"/>
-				<outline text="//  &lt;i&gt;Here is the code&lt;/i&gt;" created="Tue, 23 Nov 2021 15:51:55 GMT">
-					<outline text="&lt;i&gt;Reads from localStorage &lt;/i&gt;" created="Thu, 09 Dec 2021 17:37:10 GMT" isComment="true">
-						<outline text="rd-backups-last" created="Fri, 31 Dec 2021 08:51:07 GMT" isComment="true"/>
-						<outline text="rd-backups-repository" created="Fri, 10 Dec 2021 06:27:12 GMT"/>
-						<outline text="rd-backups-path" created="Fri, 10 Dec 2021 06:27:17 GMT"/>
-						<outline text="rd-username" created="Tue, 21 Dec 2021 00:45:24 GMT" isComment="false"/>
-						</outline>
-					<outline text="&lt;i&gt;Writes to localStorage&lt;/i&gt;" created="Wed, 05 Jan 2022 01:41:22 GMT" isComment="true">
-						<outline text="rd-backups-last" created="Fri, 31 Dec 2021 08:51:07 GMT" isComment="true"/>
-						<outline text="rd-backups-status" created="Wed, 05 Jan 2022 01:41:48 GMT" isComment="false"/>
-						<outline text="rd-backups-lastupload" created="Wed, 05 Jan 2022 01:57:46 GMT"/>
-						</outline>
-					<outline text="" created="Thu, 06 Jan 2022 06:48:29 GMT"/>
-					<outline text="const username      = localStorage.getItem( &quot;rd-username&quot; )" created="Fri, 24 Dec 2021 20:33:28 GMT"/>
-					<outline text="const repository     = localStorage.getItem( &quot;rd-backups-repository&quot; )" created="Fri, 24 Dec 2021 20:29:46 GMT"/>
-					<outline text="const last                  = localStorage.getItem( &quot;rd-backups-last&quot; )" created="Fri, 31 Dec 2021 08:59:44 GMT"/>
-					<outline text="const lastbackup    = last !== null ? new Date( last ) : null" created="Fri, 31 Dec 2021 09:09:26 GMT"/>
-					<outline text="const thisbackup    = new Date()" created="Tue, 04 Jan 2022 19:17:09 GMT"/>
-					<outline text="localStorage.setItem( &quot;rd-backups-last&quot;, thisbackup )" created="Fri, 31 Dec 2021 05:27:01 GMT"/>
-					<outline text="console.log( &quot;🎒 0.2.0 — Back Up Now — Starting backup at &quot; + thisbackup + &quot; — Last backup was &quot; + last )" created="Fri, 31 Dec 2021 11:04:11 GMT" isComment="false"/>
-					<outline text="" created="Tue, 04 Jan 2022 06:51:11 GMT"/>
-					<outline text="var basepath  = localStorage.getItem( &quot;rd-backups-path&quot; )" created="Fri, 24 Dec 2021 20:33:03 GMT"/>
-					<outline text="var status        = localStorage.getItem(&quot;rd-backups-status&quot; )" created="Fri, 24 Dec 2021 20:41:04 GMT"/>
-					<outline text="" created="Wed, 05 Jan 2022 01:48:22 GMT"/>
-					<outline text="if ( username === null ) {" created="Tue, 04 Jan 2022 06:14:36 GMT">
-						<outline text="status = &quot;Unable to find rd-username. You can fix this with Preferences → Configure GitHub Username…&quot;" created="Wed, 05 Jan 2022 01:48:33 GMT"/>
-						</outline>
-					<outline text="} else if ( repository === null ) {" created="Tue, 04 Jan 2022 06:17:07 GMT">
-						<outline text="status = &quot;Unable to find rd-backups-repository. You can fix this with Preferences → Configure Backups Repository…&quot;" created="Wed, 05 Jan 2022 01:49:32 GMT"/>
-						</outline>
-					<outline text="} else if ( basepath === null ) {" created="Tue, 04 Jan 2022 06:17:07 GMT">
-						<outline text="status = &quot;Unable to find rd-backups-path. You can fix this with Preferences → Configure Backups Path…&quot; " created="Fri, 24 Dec 2021 20:42:14 GMT"/>
-						</outline>
-					<outline text="} else {" created="Fri, 24 Dec 2021 20:42:15 GMT">
-						<outline text="basepath = string.trimLeading( basepath, &quot;/&quot; )" created="Fri, 31 Dec 2021 03:36:39 GMT"/>
-						<outline text="basepath = string.trimTrailing( basepath, &quot;/&quot; )" created="Fri, 31 Dec 2021 03:38:12 GMT"/>
-						<outline text="var uploaded = 0" created="Fri, 31 Dec 2021 09:12:20 GMT"/>
-						<outline text="const message =  string.randomSnarkySlogan()" created="Fri, 24 Dec 2021 20:45:56 GMT"/>
-						<outline text="const hierarchy = file.getFileHierarchy()" created="Fri, 31 Dec 2021 03:23:29 GMT"/>
-						<outline text="" created="Tue, 04 Jan 2022 19:16:22 GMT"/>
-						<outline text="for ( const group of [ &quot;privateFiles&quot;, &quot;publicFiles&quot; ] ) {" created="Fri, 31 Dec 2021 04:16:35 GMT">
-							<outline text="for ( const filename in hierarchy[ group ].subs ) {" created="Wed, 22 Dec 2021 19:51:40 GMT">
-								<outline text="" created="Tue, 04 Jan 2022 19:25:42 GMT"/>
-								<outline text="let shouldupload = false" created="Tue, 04 Jan 2022 19:01:20 GMT"/>
-								<outline text="const path                 = basepath + &quot;/&quot; + group + &quot;/&quot; + filename" created="Fri, 31 Dec 2021 03:35:09 GMT"/>
-								<outline text="const info                  = hierarchy[ group ].subs[ filename ]" created="Tue, 04 Jan 2022 06:22:14 GMT"/>
-								<outline text="const lastmodified = new Date( info[ &quot;whenModified&quot; ] )" created="Tue, 04 Jan 2022 18:11:14 GMT"/>
-								<outline text="const whencreated = new Date( info[ &quot;whenCreated&quot; ] )" created="Tue, 04 Jan 2022 18:12:17 GMT"/>
-								<outline text="let data = null" created="Fri, 31 Dec 2021 10:31:47 GMT"/>
-								<outline text="" created="Tue, 04 Jan 2022 19:13:28 GMT"/>
-								<outline text="if ( lastbackup === null ||  lastmodified  &gt;= lastbackup ) {" created="Fri, 31 Dec 2021 08:55:04 GMT">
-									<outline text="shouldupload = true" created="Tue, 04 Jan 2022 19:25:15 GMT"/>
-									<outline text="console.log( &quot;🎒 0.2.0 — Back Up Now — &quot; + filename + &quot;  was modified &quot; +  lastmodified + &quot; after the last backup at &quot; + lastbackup )" created="Fri, 31 Dec 2021 11:04:11 GMT" isComment="false"/>
-									<outline text="" created="Tue, 04 Jan 2022 19:25:38 GMT"/>
-									<outline text="const existing = github.download( username, repository, path )" created="Fri, 31 Dec 2021 05:18:56 GMT" isComment="true"/>
-									<outline text="const current = base64.decode( existing.content )" created="Fri, 31 Dec 2021 05:04:16 GMT" isComment="true"/>
-									<outline text="data = file.readWholeFile( filename )" created="Fri, 31 Dec 2021 03:40:15 GMT" isComment="true"/>
-									<outline text="shouldupload = data !== current" created="Fri, 31 Dec 2021 09:58:12 GMT" isComment="true"/>
-									<outline text="" created="Tue, 04 Jan 2022 19:25:39 GMT"/>
-									</outline>
-								<outline text="} else if ( lastbackup !== null &amp;&amp; whencreated &gt; lastbackup  ) {" created="Fri, 31 Dec 2021 09:57:28 GMT">
-									<outline text="console.log( &quot;🎒 0.2.0 — Back Up Now — &quot; + filename + &quot;  was created &quot; +  whencreated + &quot; after the last backup at &quot; + lastbackup )" created="Fri, 31 Dec 2021 11:04:11 GMT" isComment="false"/>
-									<outline text="shouldupload = true" created="Fri, 31 Dec 2021 10:01:12 GMT"/>
-									<outline text="}" created="Fri, 31 Dec 2021 09:05:29 GMT"/>
-									</outline>
-								<outline text="" created="Tue, 04 Jan 2022 19:16:27 GMT"/>
-								<outline text="if ( shouldupload ) {" created="Fri, 31 Dec 2021 10:01:35 GMT">
-									<outline text="if ( data == null ) {  data = file.readWholeFile( filename )  }" created="Fri, 31 Dec 2021 10:32:04 GMT"/>
-									<outline text="const result = github.upload ( username, repository, path, data, message )" created="Fri, 24 Dec 2021 20:32:48 GMT" isComment="false"/>
-									<outline text="const status = result[ &quot;statusCode&quot; ]" created="Fri, 31 Dec 2021 03:13:09 GMT"/>
-									<outline text="console.log( &quot;🎒 0.2.0 — Back Up Now — Result from uploading &quot; + filename + &quot;  is &quot; + JSON.stringify( result ) )" created="Fri, 31 Dec 2021 11:04:11 GMT" isComment="true"/>
-									<outline text="console.log( &quot;🎒 0.2.0 — Back Up Now — Status from uploading &quot; + filename + &quot;  to &quot; + repository + &quot; at &quot; + path + &quot; is &quot; + status )" created="Fri, 31 Dec 2021 11:04:11 GMT" isComment="false"/>
-									<outline text="uploaded = uploaded + 1" created="Fri, 31 Dec 2021 09:12:39 GMT"/>
-									<outline text="}" created="Fri, 31 Dec 2021 10:01:47 GMT"/>
-									</outline>
-								<outline text="}" created="Tue, 04 Jan 2022 19:20:56 GMT"/>
-								</outline>
-							<outline text="}" created="Fri, 31 Dec 2021 10:38:43 GMT"/>
-							</outline>
-						<outline text="if ( uploaded &gt; 0 ) {" created="Wed, 05 Jan 2022 01:53:17 GMT">
-							<outline text="status = &quot;Uploaded &quot; + uploaded + &quot; files&quot;" created="Wed, 05 Jan 2022 01:53:30 GMT"/>
-							<outline text="localStorage.setItem( &quot;rd-backups-lastupload&quot;, thisbackup )" created="Wed, 05 Jan 2022 01:56:11 GMT"/>
-							<outline text="}" created="Wed, 05 Jan 2022 01:53:32 GMT"/>
-							</outline>
-						<outline text="console.log( &quot;🎒 0.2.0 — Back Up Now — Completed backup which began at &quot; + thisbackup + &quot; and uploaded &quot; + uploaded + &quot; files&quot; )" created="Fri, 31 Dec 2021 03:10:32 GMT"/>
-						<outline text="}" created="Fri, 24 Dec 2021 20:34:25 GMT"/>
-						</outline>
-					<outline text="console.log( &quot;🎒 0.2.0 — Back Up Now — &quot;  + status )" created="Fri, 24 Dec 2021 20:42:14 GMT"/>
-					<outline text="localStorage.setItem( &quot;rd-backups-status&quot;, status )" created="Wed, 05 Jan 2022 01:50:11 GMT"/>
+				<outline text="To enable automatic backups" created="Mon, 03 Jan 2022 02:46:15 GMT" >
+					<outline text="Select the &lt;b&gt;Back Up Now&lt;/b&gt; node, below " created="Mon, 03 Jan 2022 02:51:30 GMT" />
+					<outline text="Copy (⌘C)" created="Mon, 22 Nov 2021 01:34:09 GMT" isComment="false" />
+					<outline text="File → Special Files... → Scheduler… " created="Sun, 21 Nov 2021 01:54:15 GMT" isComment="false" />
+					<outline text="Ensure there is a top-level, uncommented, node named &lt;i&gt;everyMinute&lt;/i&gt;" created="Mon, 03 Jan 2022 02:53:18 GMT" />
+					<outline text="Paste (⌘V) the &lt;b&gt;Back Up Now&lt;/b&gt; item under that heading" created="Sun, 21 Nov 2021 01:55:14 GMT" isComment="false" />
+					<outline text="You can disable automatic backups by deleting this entry, or commenting it out." created="Thu, 06 Jan 2022 00:43:56 GMT" />
 					</outline>
 				</outline>
-			<outline text="-" created="Sun, 02 Jan 2022 04:28:51 GMT"/>
-			<outline text="Upload Current Tab…" created="Wed, 08 Dec 2021 19:46:16 GMT" isComment="false">
-				<outline text="Roady will upload the currently open tab to GitHub." created="Fri, 31 Dec 2021 03:05:31 GMT" isComment="true"/>
-				<outline text="Roady looks for header elements in the OPML to determine where to save the file and how it is processed. " created="Thu, 09 Dec 2021 17:37:10 GMT" isComment="true">
-					<outline text="&lt;i&gt;rd-repository&lt;/i&gt;" created="Fri, 10 Dec 2021 06:27:12 GMT">
-						<outline text="Set this to the name of the GitHub repository you want to save the file into." created="Fri, 10 Dec 2021 06:27:39 GMT"/>
-						<outline text="For example, &quot;hello-world&quot;" created="Fri, 10 Dec 2021 06:32:41 GMT"/>
+			<outline text="About Roady…" created="Thu, 09 Dec 2021 06:44:28 GMT" isComment="false" >
+				<outline text="const roadyversion = &quot;0.3.0&quot;" created="Wed, 05 Jan 2022 05:08:07 GMT" />
+				<outline text="const version = &quot;🎒 Roady — Tools for working with GitHub. Version &quot; + roadyversion " created="Fri, 29 Oct 2021 00:33:04 GMT" />
+				<outline text="console.log( version )" created="Fri, 10 Dec 2021 03:05:13 GMT" />
+				<outline text="dialog.alert( version )" created="Fri, 10 Dec 2021 03:04:11 GMT" isComment="false" />
+				</outline>
+			<outline text="-" created="Sun, 02 Jan 2022 03:30:18 GMT" />
+			<outline text="Back Up Now" created="Wed, 08 Dec 2021 19:46:16 GMT" isComment="false" >
+				<outline text="Roady will back up your Drummer files which have changed since the last backup." created="Fri, 31 Dec 2021 03:05:31 GMT" isComment="true" />
+				<outline text="You can copy this menu item into Drummer's scheduler to enable continuous, automatic backups." created="Mon, 03 Jan 2022 07:59:01 GMT" isComment="true" />
+				<outline text="//  &lt;i&gt;Here is the code&lt;/i&gt;" created="Tue, 23 Nov 2021 15:51:55 GMT" >
+					<outline text="&lt;i&gt;Reads from localStorage &lt;/i&gt;" created="Thu, 09 Dec 2021 17:37:10 GMT" isComment="true" >
+						<outline text="rd-backups-last" created="Fri, 31 Dec 2021 08:51:07 GMT" isComment="true" />
+						<outline text="rd-backups-repository" created="Fri, 10 Dec 2021 06:27:12 GMT" />
+						<outline text="rd-backups-path" created="Fri, 10 Dec 2021 06:27:17 GMT" />
+						<outline text="rd-username" created="Tue, 21 Dec 2021 00:45:24 GMT" isComment="false" />
+						<outline text="rd-backups-exclude-lastcursor" created="Tue, 21 Dec 2021 00:45:24 GMT" isComment="false" />
 						</outline>
-					<outline text="&lt;i&gt;rd-path&lt;/i&gt;" created="Fri, 10 Dec 2021 06:27:17 GMT">
-						<outline text="Set this to the path to the file, including the filename  " created="Fri, 10 Dec 2021 06:28:14 GMT"/>
-						<outline text="For example, &quot;directory/sub/file.opml&quot;" created="Fri, 10 Dec 2021 06:30:36 GMT"/>
+					<outline text="&lt;i&gt;Writes to localStorage&lt;/i&gt;" created="Wed, 05 Jan 2022 01:41:22 GMT" isComment="true" >
+						<outline text="rd-backups-last" created="Fri, 31 Dec 2021 08:51:07 GMT" isComment="true" />
+						<outline text="rd-backups-status" created="Wed, 05 Jan 2022 01:41:48 GMT" isComment="false" />
+						<outline text="rd-backups-lastupload" created="Wed, 05 Jan 2022 01:57:46 GMT" />
 						</outline>
-					<outline text="&lt;i&gt;rd-type&lt;/i&gt;" created="Tue, 21 Dec 2021 00:45:24 GMT" isComment="false">
-						<outline text="Controls how the file is processed before uploading" created="Fri, 24 Dec 2021 18:30:02 GMT"/>
-						<outline text="&lt;i&gt;opml&lt;/i&gt;" created="Mon, 20 Dec 2021 23:55:36 GMT">
-							<outline text="The OPML file will be uploaded without processing" created="Mon, 20 Dec 2021 23:58:05 GMT"/>
-							</outline>
-						<outline text="&lt;i&gt;text&lt;/i&gt;" created="Mon, 20 Dec 2021 23:54:32 GMT">
-							<outline text="Suitable for Markdown, the text from the nodes of the outline will be included, but none of the indentation or OPML attributes" created="Mon, 20 Dec 2021 23:56:55 GMT"/>
-							</outline>
-						<outline text="&lt;i&gt;indented&lt;/i&gt;" created="Mon, 20 Dec 2021 23:57:34 GMT">
-							<outline text="Suitable for JavaScript, the text from the nodes of the outline will be included, with indentation per OPML indentation level" created="Mon, 20 Dec 2021 23:57:42 GMT"/>
-							</outline>
+					<outline text="" created="Thu, 06 Jan 2022 06:48:29 GMT" />
+					<outline text="const username      = localStorage.getItem( &quot;rd-username&quot; )" created="Fri, 24 Dec 2021 20:33:28 GMT" />
+					<outline text="const repository     = localStorage.getItem( &quot;rd-backups-repository&quot; )" created="Fri, 24 Dec 2021 20:29:46 GMT" />
+					<outline text="const last                  = localStorage.getItem( &quot;rd-backups-last&quot; )" created="Fri, 31 Dec 2021 08:59:44 GMT" />
+					<outline text="const lastbackup    = last !== null ? new Date( last ) : null" created="Fri, 31 Dec 2021 09:09:26 GMT" />
+					<outline text="const thisbackup    = new Date()" created="Tue, 04 Jan 2022 19:17:09 GMT" />
+					<outline text="localStorage.setItem( &quot;rd-backups-last&quot;, thisbackup )" created="Fri, 31 Dec 2021 05:27:01 GMT" />
+					<outline text="console.log( &quot;🎒 0.3.0 — Back Up Now — Starting backup at &quot; + thisbackup + &quot; — Last backup was &quot; + last )" created="Fri, 31 Dec 2021 11:04:11 GMT" isComment="false" />
+					<outline text="" created="Tue, 04 Jan 2022 06:51:11 GMT" />
+					<outline text="var basepath  = localStorage.getItem( &quot;rd-backups-path&quot; )" created="Fri, 24 Dec 2021 20:33:03 GMT" />
+					<outline text="var status        = localStorage.getItem(&quot;rd-backups-status&quot; )" created="Fri, 24 Dec 2021 20:41:04 GMT" />
+					<outline text="" created="Fri, 07 Jan 2022 04:55:09 GMT" />
+					<outline text="" created="Wed, 05 Jan 2022 01:48:22 GMT" />
+					<outline text="if ( username === null ) {" created="Tue, 04 Jan 2022 06:14:36 GMT" >
+						<outline text="status = &quot;Unable to find rd-username. You can fix this with Preferences → Configure GitHub Username…&quot;" created="Wed, 05 Jan 2022 01:48:33 GMT" />
 						</outline>
-					</outline>
-				<outline text="//  &lt;i&gt;Here is the code&lt;/i&gt;" created="Tue, 23 Nov 2021 15:51:55 GMT">
-					<outline text="&lt;i&gt;Reads from localStorage &lt;/i&gt;" created="Thu, 09 Dec 2021 17:37:10 GMT" isComment="true">
-						<outline text="rd-username" created="Tue, 21 Dec 2021 00:45:24 GMT" isComment="false"/>
+					<outline text="} else if ( repository === null ) {" created="Tue, 04 Jan 2022 06:17:07 GMT" >
+						<outline text="status = &quot;Unable to find rd-backups-repository. You can fix this with Preferences → Configure Backups Repository…&quot;" created="Wed, 05 Jan 2022 01:49:32 GMT" />
 						</outline>
-					<outline text="" created="Sat, 04 Dec 2021 09:04:53 GMT"/>
-					<outline text="const username      = localStorage.getItem( &quot;rd-username&quot; )" created="Fri, 24 Dec 2021 20:33:28 GMT"/>
-					<outline text="const headers          = opml.getHeaders()" created="Fri, 24 Dec 2021 20:31:22 GMT"/>
-					<outline text="const repository     = headers[ &quot;rd-repository&quot; ]" created="Fri, 24 Dec 2021 20:29:46 GMT"/>
-					<outline text="const path                = headers[ &quot;rd-path&quot; ]" created="Fri, 24 Dec 2021 20:33:03 GMT"/>
-					<outline text="const type                = headers[ &quot;rd-type&quot; ]" created="Fri, 24 Dec 2021 20:34:25 GMT"/>
-					<outline text="" created="Fri, 24 Dec 2021 20:41:04 GMT"/>
-					<outline text="if ( username === null) {" created="Tue, 04 Jan 2022 06:14:36 GMT">
-						<outline text="dialog.alert( &quot;🎒 Didn't upload tab because Roady couldn't find your GitHub username. You can fix this with Preferences → Configure GitHub Username…&quot;  )" created="Fri, 24 Dec 2021 20:42:14 GMT"/>
+					<outline text="} else if ( basepath === null ) {" created="Tue, 04 Jan 2022 06:17:07 GMT" >
+						<outline text="status = &quot;Unable to find rd-backups-path. You can fix this with Preferences → Configure Backups Path…&quot; " created="Fri, 24 Dec 2021 20:42:14 GMT" />
 						</outline>
-					<outline text="} else if ( repository === undefined ) {" created="Tue, 04 Jan 2022 06:17:07 GMT">
-						<outline text="dialog.alert( &quot;🎒 Didn't upload tab because Roady couldn't find the rd-repository header element. You can fix this with File → Edit OPML headers... &quot;  )" created="Fri, 24 Dec 2021 20:42:14 GMT"/>
-						</outline>
-					<outline text="} else if ( path === undefined ) {" created="Tue, 04 Jan 2022 06:17:07 GMT">
-						<outline text="dialog.alert( &quot;🎒 Didn't upload tab because Roady couldn't find the rd-path header element. You can fix this with File → Edit OPML headers...&quot;  )" created="Fri, 24 Dec 2021 20:42:14 GMT"/>
-						</outline>
-					<outline text="} else if ( type === undefined ) {" created="Tue, 04 Jan 2022 06:17:07 GMT">
-						<outline text="dialog.alert( &quot;🎒 Didn't upload tab because Roady couldn't find the rd-type header element. You can fix this with File → Edit OPML headers...&quot;  )" created="Fri, 24 Dec 2021 20:42:14 GMT"/>
-						</outline>
-					<outline text="} else {" created="Fri, 24 Dec 2021 20:42:15 GMT">
-						<outline text="var data" created="Fri, 24 Dec 2021 20:45:27 GMT"/>
-						<outline text="if ( type === &quot;opml&quot; ) {" created="Fri, 24 Dec 2021 20:47:46 GMT">
-							<outline text="data = opml.getCurrentOpml()" created="Fri, 24 Dec 2021 20:48:22 GMT"/>
-							</outline>
-						<outline text="} else if ( type === &quot;text&quot; ) {" created="Fri, 24 Dec 2021 20:48:33 GMT">
-							<outline text="data = getOutlineText( )" created="Fri, 24 Dec 2021 22:29:46 GMT"/>
-							</outline>
-						<outline text="} else if ( type === &quot;indented&quot; ) {" created="Fri, 24 Dec 2021 20:48:49 GMT">
-							<outline text="data = getOutlineText( &quot;\t&quot; )" created="Fri, 24 Dec 2021 22:29:46 GMT"/>
-							<outline text="}" created="Fri, 24 Dec 2021 20:49:30 GMT"/>
-							</outline>
-						<outline text="if ( data === undefined ) {" created="Fri, 24 Dec 2021 20:49:34 GMT">
-							<outline text="dialog.alert( &quot;🎒 Didn't upload tab because the rd-type element must be opml, text or indented. Fix this with File → Edit OPML headers...&quot; )" created="Fri, 24 Dec 2021 20:49:49 GMT"/>
-							</outline>
-						<outline text="} else {" created="Fri, 24 Dec 2021 21:38:00 GMT">
-							<outline text="const message =  string.randomSnarkySlogan()" created="Fri, 24 Dec 2021 20:45:56 GMT"/>
-							<outline text="const result = github.upload ( username, repository, path, data, message )" created="Fri, 24 Dec 2021 20:32:48 GMT" isComment="false"/>
-							<outline text="const status = result[ &quot;statusCode&quot; ]" created="Fri, 31 Dec 2021 03:13:09 GMT"/>
-							<outline text="console.log( &quot;🎒 0.2.0 — Upload Current Tab — Result from uploading file to &quot; + repository + &quot; at &quot; + path + &quot; is &quot; + JSON.stringify( result )  )" created="Fri, 31 Dec 2021 11:04:11 GMT" isComment="false"/>
-							<outline text="console.log( &quot;🎒 0.2.0 — Upload Current Tab — Status from uploading file to &quot; + repository + &quot; at &quot; + path + &quot; is &quot; + status )" created="Fri, 31 Dec 2021 11:04:11 GMT" isComment="false"/>
-							<outline text="dialog.alert( &quot;🎒 Status from uploading tab to GitHub: &quot; + status )" created="Fri, 31 Dec 2021 03:10:32 GMT"/>
-							<outline text="}" created="Fri, 24 Dec 2021 20:49:50 GMT"/>
-							</outline>
-						<outline text="}" created="Fri, 24 Dec 2021 21:36:25 GMT"/>
-						</outline>
-					<outline text="" created="Fri, 24 Dec 2021 20:34:25 GMT"/>
-					<outline text="//    &lt;b&gt;Functions&lt;/b&gt;" created="Fri, 24 Dec 2021 22:02:50 GMT">
-						<outline text="//   &lt;b&gt;Get text of outline&lt;/b&gt;" created="Fri, 24 Dec 2021 22:03:00 GMT">
-							<outline text="function getOutlineText( indent ) {" created="Fri, 24 Dec 2021 22:03:25 GMT">
-								<outline text="&lt;b&gt;Description&lt;/b&gt;" created="Thu, 25 Nov 2021 17:40:49 GMT" isComment="true">
-									<outline text="Gets the text of the current outline, optionally with indents " created="Thu, 25 Nov 2021 17:41:51 GMT" isComment="true"/>
-									<outline text="&lt;i&gt;Params&lt;/i&gt;" created="Thu, 25 Nov 2021 17:37:41 GMT" isComment="true">
-										<outline text="&lt;b&gt;indent&lt;/b&gt; if provided, this string will be repeated for each level of indentation" created="Thu, 25 Nov 2021 17:38:25 GMT" isComment="false"/>
-										</outline>
-									<outline text="&lt;i&gt;Input&lt;/i&gt;" created="Sun, 28 Nov 2021 18:10:28 GMT" isComment="true">
-										<outline text="The current outline" created="Sun, 28 Nov 2021 18:11:51 GMT" isComment="true"/>
-										</outline>
-									<outline text="&lt;i&gt;Returns&lt;/i&gt;" created="Thu, 25 Nov 2021 17:39:27 GMT" isComment="true">
-										<outline text="A string containing the text of the current outline" created="Sun, 28 Nov 2021 18:13:30 GMT"/>
-										<outline text="This method will return an empty string rather than undefined" created="Sun, 28 Nov 2021 18:13:18 GMT"/>
-										</outline>
-									</outline>
-								<outline text="var text = &quot;&quot;" created="Fri, 24 Dec 2021 22:27:59 GMT"/>
-								<outline text="const cursor = op.getCursor()" created="Wed, 07 Apr 2021 16:53:43 GMT"/>
-								<outline text="op.firstSummit()" created="Sun, 21 Nov 2021 22:02:10 GMT"/>
-								<outline text="op.visitSubs(  " created="Sun, 21 Nov 2021 20:12:27 GMT" isComment="false">
-									<outline text="function( node, level ) {" created="Mon, 22 Nov 2021 01:05:01 GMT" isComment="false">
-										<outline text="var spaces = &quot;&quot;" created="Fri, 24 Dec 2021 22:59:12 GMT"/>
-										<outline text="if ( indent !== undefined ) {" created="Fri, 24 Dec 2021 22:29:07 GMT" isComment="false">
-											<outline text="spaces = string.filledString( indent, level )" created="Fri, 24 Dec 2021 22:57:36 GMT"/>
-											<outline text="}" created="Fri, 24 Dec 2021 22:29:18 GMT"/>
+					<outline text="} else {" created="Fri, 24 Dec 2021 20:42:15 GMT" >
+						<outline text="basepath = string.trimLeading( basepath, &quot;/&quot; )" created="Fri, 31 Dec 2021 03:36:39 GMT" />
+						<outline text="basepath = string.trimTrailing( basepath, &quot;/&quot; )" created="Fri, 31 Dec 2021 03:38:12 GMT" />
+						<outline text="var uploaded = 0, excluded = 0" created="Fri, 31 Dec 2021 09:12:20 GMT" />
+						<outline text="const message =  string.randomSnarkySlogan()" created="Fri, 24 Dec 2021 20:45:56 GMT" />
+						<outline text="const hierarchy = file.getFileHierarchy()" created="Fri, 31 Dec 2021 03:23:29 GMT" />
+						<outline text="const excludecursorupdates         = localStorage.getItem( &quot;rd-backups-exclude-lastCursor&quot; )           == &quot;true&quot;" created="Fri, 07 Jan 2022 04:55:34 GMT" />
+						<outline text="const excludeexpansionupdates = localStorage.getItem( &quot;rd-backups-exclude-expansionState&quot; ) == &quot;true&quot;" created="Fri, 07 Jan 2022 04:55:34 GMT" />
+						<outline text="" created="Tue, 04 Jan 2022 19:16:22 GMT" />
+						<outline text="for ( const group of [ &quot;privateFiles&quot;, &quot;publicFiles&quot; ] ) {" created="Fri, 31 Dec 2021 04:16:35 GMT" >
+							<outline text="for ( const filename in hierarchy[ group ].subs ) {" created="Wed, 22 Dec 2021 19:51:40 GMT" >
+								<outline text="" created="Tue, 04 Jan 2022 19:25:42 GMT" />
+								<outline text="let shouldupload = false" created="Tue, 04 Jan 2022 19:01:20 GMT" />
+								<outline text="const path                 = basepath + &quot;/&quot; + group + &quot;/&quot; + filename" created="Fri, 31 Dec 2021 03:35:09 GMT" />
+								<outline text="const info                  = hierarchy[ group ].subs[ filename ]" created="Tue, 04 Jan 2022 06:22:14 GMT" />
+								<outline text="const lastmodified = new Date( info[ &quot;whenModified&quot; ] )" created="Tue, 04 Jan 2022 18:11:14 GMT" />
+								<outline text="const whencreated = new Date( info[ &quot;whenCreated&quot; ] )" created="Tue, 04 Jan 2022 18:12:17 GMT" />
+								<outline text="let data = null" created="Fri, 31 Dec 2021 10:31:47 GMT" />
+								<outline text="" created="Tue, 04 Jan 2022 19:13:28 GMT" />
+								<outline text="if ( lastbackup === null ||  lastmodified  &gt;= lastbackup ) {" created="Fri, 31 Dec 2021 08:55:04 GMT" >
+									<outline text="shouldupload = true" created="Tue, 04 Jan 2022 19:25:15 GMT" />
+									<outline text="console.log( &quot;🎒 0.3.0 — Back Up Now — &quot; + filename + &quot;  was modified &quot; +  lastmodified + &quot; after the last backup at &quot; + lastbackup )" created="Fri, 31 Dec 2021 11:04:11 GMT" isComment="false" />
+									<outline text="" created="Tue, 04 Jan 2022 19:25:38 GMT" />
+									<outline text="if ( ( excludecursorupdates ||  excludeexpansionupdates ) &amp;&amp; string.endsWith( filename, &quot;.opml&quot; ) ) {" created="Fri, 07 Jan 2022 04:26:17 GMT" >
+										<outline text="const githubfile = github.download( username, repository, path )" created="Fri, 31 Dec 2021 05:18:56 GMT" isComment="false" />
+										<outline text="const githubdata = base64.decode( githubfile.content )" created="Fri, 31 Dec 2021 05:04:16 GMT" isComment="false" />
+										<outline text="data = file.readWholeFile( filename )" created="Fri, 31 Dec 2021 03:40:15 GMT" isComment="false" />
+										<outline text="shouldupload = data !== githubdata" created="Fri, 31 Dec 2021 09:58:12 GMT" isComment="false" />
+										<outline text="" created="Fri, 07 Jan 2022 05:09:28 GMT" />
+										<outline text="if ( shouldupload ) {" created="Fri, 07 Jan 2022 04:27:08 GMT" >
+											<outline text="" created="Fri, 07 Jan 2022 04:37:07 GMT" />
+											<outline text="const localopml = opml.parse( data )" created="Fri, 07 Jan 2022 04:28:04 GMT" />
+											<outline text="const githubopml = opml.parse( githubdata )" created="Fri, 07 Jan 2022 04:40:45 GMT" />
+											<outline text="" created="Fri, 07 Jan 2022 04:30:33 GMT" />
+											<outline text="delete localopml.opml.head[ &quot;dateModified&quot; ]" created="Fri, 07 Jan 2022 04:30:53 GMT" />
+											<outline text="delete githubopml.opml.head[ &quot;dateModified&quot; ]" created="Fri, 07 Jan 2022 04:30:53 GMT" />
+											<outline text="" created="Fri, 07 Jan 2022 04:34:20 GMT" />
+											<outline text="if ( excludecursorupdates ) { " created="Fri, 07 Jan 2022 05:49:27 GMT" >
+												<outline text="delete localopml.opml.head[ &quot;lastCursor&quot; ]" created="Fri, 07 Jan 2022 04:34:01 GMT" />
+												<outline text="delete githubopml.opml.head[ &quot;lastCursor&quot; ]" created="Fri, 07 Jan 2022 04:34:01 GMT" />
+												<outline text="}" created="Fri, 07 Jan 2022 05:49:43 GMT" />
+												</outline>
+											<outline text="if ( excludeexpansionupdates ) {" created="Fri, 07 Jan 2022 05:49:47 GMT" >
+												<outline text="delete localopml.opml.head[ &quot;expansionState&quot; ]" created="Fri, 07 Jan 2022 04:34:01 GMT" />
+												<outline text="delete githubopml.opml.head[ &quot;expansionState&quot; ]" created="Fri, 07 Jan 2022 04:34:01 GMT" />
+												<outline text="}" created="Fri, 07 Jan 2022 05:49:43 GMT" />
+												</outline>
+											<outline text="" created="Fri, 07 Jan 2022 05:49:56 GMT" />
+											<outline text="const localstripped = opml.stringify( localopml )" created="Fri, 07 Jan 2022 05:14:54 GMT" />
+											<outline text="const githubstripped = opml.stringify( githubopml )" created="Fri, 07 Jan 2022 05:15:07 GMT" />
+											<outline text="" created="Fri, 07 Jan 2022 05:15:17 GMT" />
+											<outline text="shouldupload = localstripped != githubstripped " created="Fri, 07 Jan 2022 04:30:34 GMT" />
+											<outline text="if ( !shouldupload ) {" created="Fri, 07 Jan 2022 04:30:06 GMT" >
+												<outline text="console.log( &quot;🎒 0.3.0 — Back Up Now — Excluding file: &quot; + filename )" created="Fri, 31 Dec 2021 11:04:11 GMT" isComment="false" />
+												<outline text="excluded = excluded + 1" created="Fri, 07 Jan 2022 04:43:32 GMT" />
+												<outline text="}" created="Fri, 07 Jan 2022 04:39:34 GMT" />
+												</outline>
+											<outline text="}" created="Fri, 07 Jan 2022 04:39:42 GMT" />
 											</outline>
-										<outline text="const line = node.getLineText()" created="Sun, 21 Nov 2021 23:53:50 GMT"/>
-										<outline text="text =  text + spaces + line + &quot;\n&quot;" created="Sun, 21 Nov 2021 23:46:13 GMT"/>
-										<outline text="})" created="Sun, 21 Nov 2021 20:14:25 GMT"/>
+										<outline text="}" created="Fri, 07 Jan 2022 04:27:16 GMT" />
+										</outline>
+									<outline text="" created="Tue, 04 Jan 2022 19:25:39 GMT" />
+									</outline>
+								<outline text="} else if ( lastbackup !== null &amp;&amp; whencreated &gt; lastbackup  ) {" created="Fri, 31 Dec 2021 09:57:28 GMT" >
+									<outline text="console.log( &quot;🎒 0.3.0 — Back Up Now — &quot; + filename + &quot;  was created &quot; +  whencreated + &quot; after the last backup at &quot; + lastbackup )" created="Fri, 31 Dec 2021 11:04:11 GMT" isComment="false" />
+									<outline text="shouldupload = true" created="Fri, 31 Dec 2021 10:01:12 GMT" />
+									<outline text="}" created="Fri, 31 Dec 2021 09:05:29 GMT" />
+									</outline>
+								<outline text="" created="Tue, 04 Jan 2022 19:16:27 GMT" />
+								<outline text="if ( shouldupload ) {" created="Fri, 31 Dec 2021 10:01:35 GMT" >
+									<outline text="if ( data == null ) {  data = file.readWholeFile( filename )  }" created="Fri, 31 Dec 2021 10:32:04 GMT" />
+									<outline text="const result = github.upload ( username, repository, path, data, message )" created="Fri, 24 Dec 2021 20:32:48 GMT" isComment="false" />
+									<outline text="const status = result[ &quot;statusCode&quot; ]" created="Fri, 31 Dec 2021 03:13:09 GMT" />
+									<outline text="console.log( &quot;🎒 0.3.0 — Back Up Now — Result from uploading &quot; + filename + &quot;  is &quot; + JSON.stringify( result ) )" created="Fri, 31 Dec 2021 11:04:11 GMT" isComment="true" />
+									<outline text="console.log( &quot;🎒 0.3.0 — Back Up Now — Status from uploading &quot; + filename + &quot;  to &quot; + repository + &quot; at &quot; + path + &quot; is &quot; + status )" created="Fri, 31 Dec 2021 11:04:11 GMT" isComment="false" />
+									<outline text="uploaded = uploaded + 1" created="Fri, 31 Dec 2021 09:12:39 GMT" />
+									<outline text="}" created="Fri, 31 Dec 2021 10:01:47 GMT" />
+									</outline>
+								<outline text="}" created="Tue, 04 Jan 2022 19:20:56 GMT" />
+								</outline>
+							<outline text="}" created="Fri, 31 Dec 2021 10:38:43 GMT" />
+							</outline>
+						<outline text="if ( excluded &gt; 0 ) {" created="Fri, 07 Jan 2022 04:45:12 GMT" >
+							<outline text="status = &quot;Excluded &quot; + excluded + &quot; files&quot;" created="Fri, 07 Jan 2022 04:45:55 GMT" />
+							<outline text="}" created="Fri, 07 Jan 2022 04:46:02 GMT" />
+							</outline>
+						<outline text="if ( uploaded &gt; 0 ) {" created="Wed, 05 Jan 2022 01:53:17 GMT" >
+							<outline text="if ( excluded &gt; 0 ) {" created="Fri, 07 Jan 2022 04:45:12 GMT" >
+								<outline text="status = status + &quot;, and uploaded &quot; + uploaded + &quot; files&quot;" created="Fri, 07 Jan 2022 04:45:55 GMT" />
+								</outline>
+							<outline text="} else {" created="Fri, 07 Jan 2022 04:46:02 GMT" >
+								<outline text="status = &quot;Uploaded &quot; + uploaded + &quot; files&quot;" created="Wed, 05 Jan 2022 01:53:30 GMT" />
+								<outline text="}" created="Fri, 07 Jan 2022 05:52:01 GMT" />
+								</outline>
+							<outline text="localStorage.setItem( &quot;rd-backups-lastupload&quot;, thisbackup )" created="Wed, 05 Jan 2022 01:56:11 GMT" />
+							<outline text="console.log( &quot;🎒 0.3.0 — Back Up Now — Completed backup which began at &quot; + thisbackup + &quot;. Uploaded &quot; + uploaded + &quot; files, excluded &quot; + excluded + &quot; files&quot; )" created="Fri, 31 Dec 2021 03:10:32 GMT" />
+							<outline text="}" created="Fri, 07 Jan 2022 05:56:38 GMT" />
+							</outline>
+						<outline text="}" created="Fri, 24 Dec 2021 20:34:25 GMT" />
+						</outline>
+					<outline text="localStorage.setItem( &quot;rd-backups-status&quot;, status )" created="Wed, 05 Jan 2022 01:50:11 GMT" />
+					</outline>
+				</outline>
+			<outline text="-" created="Sun, 02 Jan 2022 04:28:51 GMT" />
+			<outline text="Upload Current Tab…" created="Wed, 08 Dec 2021 19:46:16 GMT" isComment="false" >
+				<outline text="Roady will upload the currently open tab to GitHub." created="Fri, 31 Dec 2021 03:05:31 GMT" isComment="true" />
+				<outline text="Roady looks for header elements in the OPML to determine where to save the file and how it is processed. " created="Thu, 09 Dec 2021 17:37:10 GMT" isComment="true" >
+					<outline text="&lt;i&gt;rd-repository&lt;/i&gt;" created="Fri, 10 Dec 2021 06:27:12 GMT" >
+						<outline text="Set this to the name of the GitHub repository you want to save the file into." created="Fri, 10 Dec 2021 06:27:39 GMT" />
+						<outline text="For example, &quot;hello-world&quot;" created="Fri, 10 Dec 2021 06:32:41 GMT" />
+						</outline>
+					<outline text="&lt;i&gt;rd-path&lt;/i&gt;" created="Fri, 10 Dec 2021 06:27:17 GMT" >
+						<outline text="Set this to the path to the file, including the filename  " created="Fri, 10 Dec 2021 06:28:14 GMT" />
+						<outline text="For example, &quot;directory/sub/file.opml&quot;" created="Fri, 10 Dec 2021 06:30:36 GMT" />
+						</outline>
+					<outline text="&lt;i&gt;rd-type&lt;/i&gt;" created="Tue, 21 Dec 2021 00:45:24 GMT" isComment="false" >
+						<outline text="Controls how the file is processed before uploading" created="Fri, 24 Dec 2021 18:30:02 GMT" />
+						<outline text="&lt;i&gt;opml&lt;/i&gt;" created="Mon, 20 Dec 2021 23:55:36 GMT" >
+							<outline text="The OPML file will be uploaded without processing" created="Mon, 20 Dec 2021 23:58:05 GMT" />
+							</outline>
+						<outline text="&lt;i&gt;text&lt;/i&gt;" created="Mon, 20 Dec 2021 23:54:32 GMT" >
+							<outline text="Suitable for Markdown, the text from the nodes of the outline will be included, but none of the indentation or OPML attributes" created="Mon, 20 Dec 2021 23:56:55 GMT" />
+							</outline>
+						<outline text="&lt;i&gt;indented&lt;/i&gt;" created="Mon, 20 Dec 2021 23:57:34 GMT" >
+							<outline text="Suitable for JavaScript, the text from the nodes of the outline will be included, with indentation per OPML indentation level" created="Mon, 20 Dec 2021 23:57:42 GMT" />
+							</outline>
+						</outline>
+					</outline>
+				<outline text="//  &lt;i&gt;Here is the code&lt;/i&gt;" created="Tue, 23 Nov 2021 15:51:55 GMT" >
+					<outline text="&lt;i&gt;Reads from localStorage &lt;/i&gt;" created="Thu, 09 Dec 2021 17:37:10 GMT" isComment="true" >
+						<outline text="rd-username" created="Tue, 21 Dec 2021 00:45:24 GMT" isComment="false" />
+						<outline text="rd-upload-exclude-urlUpdateSocket" created="Fri, 07 Jan 2022 06:07:20 GMT" />
+						</outline>
+					<outline text="" created="Sat, 04 Dec 2021 09:04:53 GMT" />
+					<outline text="const username      = localStorage.getItem( &quot;rd-username&quot; )" created="Fri, 24 Dec 2021 20:33:28 GMT" />
+					<outline text="const headers          = opml.getHeaders()" created="Fri, 24 Dec 2021 20:31:22 GMT" />
+					<outline text="const repository     = headers[ &quot;rd-repository&quot; ]" created="Fri, 24 Dec 2021 20:29:46 GMT" />
+					<outline text="const path                = headers[ &quot;rd-path&quot; ]" created="Fri, 24 Dec 2021 20:33:03 GMT" />
+					<outline text="const type                = headers[ &quot;rd-type&quot; ]" created="Fri, 24 Dec 2021 20:34:25 GMT" />
+					<outline text="" created="Fri, 24 Dec 2021 20:41:04 GMT" />
+					<outline text="if ( username === null) {" created="Tue, 04 Jan 2022 06:14:36 GMT" >
+						<outline text="dialog.alert( &quot;🎒 Didn't upload tab because Roady couldn't find your GitHub username. You can fix this with Preferences → Configure GitHub Username…&quot;  )" created="Fri, 24 Dec 2021 20:42:14 GMT" />
+						</outline>
+					<outline text="} else if ( repository === undefined ) {" created="Tue, 04 Jan 2022 06:17:07 GMT" >
+						<outline text="dialog.alert( &quot;🎒 Didn't upload tab because Roady couldn't find the rd-repository header element. You can fix this with File → Edit OPML headers... &quot;  )" created="Fri, 24 Dec 2021 20:42:14 GMT" />
+						</outline>
+					<outline text="} else if ( path === undefined ) {" created="Tue, 04 Jan 2022 06:17:07 GMT" >
+						<outline text="dialog.alert( &quot;🎒 Didn't upload tab because Roady couldn't find the rd-path header element. You can fix this with File → Edit OPML headers...&quot;  )" created="Fri, 24 Dec 2021 20:42:14 GMT" />
+						</outline>
+					<outline text="} else if ( type === undefined ) {" created="Tue, 04 Jan 2022 06:17:07 GMT" >
+						<outline text="dialog.alert( &quot;🎒 Didn't upload tab because Roady couldn't find the rd-type header element. You can fix this with File → Edit OPML headers...&quot;  )" created="Fri, 24 Dec 2021 20:42:14 GMT" />
+						</outline>
+					<outline text="} else {" created="Fri, 24 Dec 2021 20:42:15 GMT" >
+						<outline text="var data" created="Fri, 24 Dec 2021 20:45:27 GMT" />
+						<outline text="if ( type === &quot;opml&quot; ) {" created="Fri, 24 Dec 2021 20:47:46 GMT" >
+							<outline text="data = opml.getCurrentOpml()" created="Fri, 24 Dec 2021 20:48:22 GMT" />
+							<outline text="if ( localStorage.getItem( &quot;rd-upload-exclude-urlUpdateSocket&quot; ) == &quot;true&quot; ) {" created="Fri, 07 Jan 2022 06:07:02 GMT" >
+								<outline text="const parsed = opml.parse( data )" created="Fri, 07 Jan 2022 04:40:45 GMT" />
+								<outline text="delete parsed.opml.head[ &quot;urlUpdateSocket&quot; ]" created="Fri, 07 Jan 2022 04:30:53 GMT" />
+								<outline text="data = opml.stringify( parsed )" created="Fri, 07 Jan 2022 05:14:54 GMT" />
+								<outline text="}" created="Fri, 07 Jan 2022 06:07:43 GMT" />
+								</outline>
+							</outline>
+						<outline text="} else if ( type === &quot;text&quot; ) {" created="Fri, 24 Dec 2021 20:48:33 GMT" >
+							<outline text="data = getOutlineText( )" created="Fri, 24 Dec 2021 22:29:46 GMT" />
+							</outline>
+						<outline text="} else if ( type === &quot;indented&quot; ) {" created="Fri, 24 Dec 2021 20:48:49 GMT" >
+							<outline text="data = getOutlineText( &quot;\t&quot; )" created="Fri, 24 Dec 2021 22:29:46 GMT" />
+							<outline text="}" created="Fri, 24 Dec 2021 20:49:30 GMT" />
+							</outline>
+						<outline text="if ( data === undefined ) {" created="Fri, 24 Dec 2021 20:49:34 GMT" >
+							<outline text="dialog.alert( &quot;🎒 Didn't upload tab because the rd-type element must be opml, text or indented. Fix this with File → Edit OPML headers...&quot; )" created="Fri, 24 Dec 2021 20:49:49 GMT" />
+							</outline>
+						<outline text="} else {" created="Fri, 24 Dec 2021 21:38:00 GMT" >
+							<outline text="const message =  string.randomSnarkySlogan()" created="Fri, 24 Dec 2021 20:45:56 GMT" />
+							<outline text="const result = github.upload ( username, repository, path, data, message )" created="Fri, 24 Dec 2021 20:32:48 GMT" isComment="false" />
+							<outline text="const status = result[ &quot;statusCode&quot; ]" created="Fri, 31 Dec 2021 03:13:09 GMT" />
+							<outline text="console.log( &quot;🎒 0.3.0 — Upload Current Tab — Result from uploading file to &quot; + repository + &quot; at &quot; + path + &quot; is &quot; + JSON.stringify( result )  )" created="Fri, 31 Dec 2021 11:04:11 GMT" isComment="false" />
+							<outline text="console.log( &quot;🎒 0.3.0 — Upload Current Tab — Status from uploading file to &quot; + repository + &quot; at &quot; + path + &quot; is &quot; + status )" created="Fri, 31 Dec 2021 11:04:11 GMT" isComment="false" />
+							<outline text="dialog.alert( &quot;🎒 Status from uploading tab to GitHub: &quot; + status )" created="Fri, 31 Dec 2021 03:10:32 GMT" />
+							<outline text="}" created="Fri, 24 Dec 2021 20:49:50 GMT" />
+							</outline>
+						<outline text="}" created="Fri, 24 Dec 2021 21:36:25 GMT" />
+						</outline>
+					<outline text="" created="Fri, 24 Dec 2021 20:34:25 GMT" />
+					<outline text="//    &lt;b&gt;Functions&lt;/b&gt;" created="Fri, 24 Dec 2021 22:02:50 GMT" >
+						<outline text="//   &lt;b&gt;Get text of outline&lt;/b&gt;" created="Fri, 24 Dec 2021 22:03:00 GMT" >
+							<outline text="function getOutlineText( indent ) {" created="Fri, 24 Dec 2021 22:03:25 GMT" >
+								<outline text="&lt;b&gt;Description&lt;/b&gt;" created="Thu, 25 Nov 2021 17:40:49 GMT" isComment="true" >
+									<outline text="Gets the text of the current outline, optionally with indents " created="Thu, 25 Nov 2021 17:41:51 GMT" isComment="true" />
+									<outline text="&lt;i&gt;Params&lt;/i&gt;" created="Thu, 25 Nov 2021 17:37:41 GMT" isComment="true" >
+										<outline text="&lt;b&gt;indent&lt;/b&gt; if provided, this string will be repeated for each level of indentation" created="Thu, 25 Nov 2021 17:38:25 GMT" isComment="false" />
+										</outline>
+									<outline text="&lt;i&gt;Input&lt;/i&gt;" created="Sun, 28 Nov 2021 18:10:28 GMT" isComment="true" >
+										<outline text="The current outline" created="Sun, 28 Nov 2021 18:11:51 GMT" isComment="true" />
+										</outline>
+									<outline text="&lt;i&gt;Returns&lt;/i&gt;" created="Thu, 25 Nov 2021 17:39:27 GMT" isComment="true" >
+										<outline text="A string containing the text of the current outline" created="Sun, 28 Nov 2021 18:13:30 GMT" />
+										<outline text="This method will return an empty string rather than undefined" created="Sun, 28 Nov 2021 18:13:18 GMT" />
 										</outline>
 									</outline>
-								<outline text="op.setCursor( cursor )" created="Wed, 07 Apr 2021 16:54:22 GMT"/>
-								<outline text="return text" created="Fri, 24 Dec 2021 22:28:44 GMT"/>
-								<outline text="}" created="Fri, 24 Dec 2021 22:03:49 GMT"/>
+								<outline text="var text = &quot;&quot;" created="Fri, 24 Dec 2021 22:27:59 GMT" />
+								<outline text="const cursor = op.getCursor()" created="Wed, 07 Apr 2021 16:53:43 GMT" />
+								<outline text="op.firstSummit()" created="Sun, 21 Nov 2021 22:02:10 GMT" />
+								<outline text="op.visitSubs(  " created="Sun, 21 Nov 2021 20:12:27 GMT" isComment="false" >
+									<outline text="function( node, level ) {" created="Mon, 22 Nov 2021 01:05:01 GMT" isComment="false" >
+										<outline text="var spaces = &quot;&quot;" created="Fri, 24 Dec 2021 22:59:12 GMT" />
+										<outline text="if ( indent !== undefined ) {" created="Fri, 24 Dec 2021 22:29:07 GMT" isComment="false" >
+											<outline text="spaces = string.filledString( indent, level )" created="Fri, 24 Dec 2021 22:57:36 GMT" />
+											<outline text="}" created="Fri, 24 Dec 2021 22:29:18 GMT" />
+											</outline>
+										<outline text="const line = node.getLineText()" created="Sun, 21 Nov 2021 23:53:50 GMT" />
+										<outline text="text =  text + spaces + line + &quot;\n&quot;" created="Sun, 21 Nov 2021 23:46:13 GMT" />
+										<outline text="})" created="Sun, 21 Nov 2021 20:14:25 GMT" />
+										</outline>
+									</outline>
+								<outline text="op.setCursor( cursor )" created="Wed, 07 Apr 2021 16:54:22 GMT" />
+								<outline text="return text" created="Fri, 24 Dec 2021 22:28:44 GMT" />
+								<outline text="}" created="Fri, 24 Dec 2021 22:03:49 GMT" />
 								</outline>
 							</outline>
 						</outline>
 					</outline>
 				</outline>
-			<outline text="-" created="Sat, 01 Jan 2022 21:03:01 GMT"/>
-			<outline text="Status" created="Sun, 02 Jan 2022 03:29:13 GMT" flSubMenu="true">
-				<outline text="Backup Status…" created="Wed, 05 Jan 2022 01:08:07 GMT">
-					<outline text="Displays information about recent backup activity." created="Thu, 06 Jan 2022 04:39:06 GMT" isComment="true"/>
-					<outline text="//    &lt;i&gt;Here is the code&lt;/i&gt;" created="Thu, 06 Jan 2022 06:22:53 GMT">
-						<outline text="&lt;i&gt;Reads from localStorage &lt;/i&gt;" created="Thu, 09 Dec 2021 17:37:10 GMT" isComment="true">
-							<outline text="rd-backups-status" created="Fri, 31 Dec 2021 08:51:07 GMT" isComment="true"/>
-							<outline text="rd-backups-last" created="Fri, 10 Dec 2021 06:27:12 GMT"/>
-							<outline text="rd-backups-lastupload" created="Fri, 10 Dec 2021 06:27:17 GMT"/>
+			<outline text="-" created="Sat, 01 Jan 2022 21:03:01 GMT" />
+			<outline text="Status" created="Sun, 02 Jan 2022 03:29:13 GMT" flSubMenu="true" >
+				<outline text="Backup Status…" created="Wed, 05 Jan 2022 01:08:07 GMT" >
+					<outline text="Displays information about recent backup activity." created="Thu, 06 Jan 2022 04:39:06 GMT" isComment="true" />
+					<outline text="//    &lt;i&gt;Here is the code&lt;/i&gt;" created="Thu, 06 Jan 2022 06:22:53 GMT" >
+						<outline text="&lt;i&gt;Reads from localStorage &lt;/i&gt;" created="Thu, 09 Dec 2021 17:37:10 GMT" isComment="true" >
+							<outline text="rd-backups-status" created="Fri, 31 Dec 2021 08:51:07 GMT" isComment="true" />
+							<outline text="rd-backups-last" created="Fri, 10 Dec 2021 06:27:12 GMT" />
+							<outline text="rd-backups-lastupload" created="Fri, 10 Dec 2021 06:27:17 GMT" />
+							<outline text="rd-backups-exclude-lastcursor" created="Tue, 21 Dec 2021 00:45:24 GMT" isComment="false" />
 							</outline>
-						<outline text="const rdstatus          = localStorage.getItem( &quot;rd-backups-status&quot; )" created="Fri, 24 Dec 2021 20:33:28 GMT"/>
-						<outline text="const status              = rdstatus !== null ? rdstatus : &quot;unknown&quot;" created="Wed, 05 Jan 2022 01:44:57 GMT"/>
-						<outline text="const rdlast               = localStorage.getItem( &quot;rd-backups-last&quot; )" created="Fri, 31 Dec 2021 08:59:44 GMT"/>
-						<outline text="const lastbackup     = rdlast !== null ? new Date( rdlast ) : null" created="Fri, 31 Dec 2021 09:09:26 GMT"/>
-						<outline text="const rdlastupload = localStorage.getItem( &quot;rd-backups-lastupload&quot; )" created="Fri, 31 Dec 2021 08:59:44 GMT"/>
-						<outline text="const lastupload     = rdlastupload !== null ? new Date( rdlastupload ) : null" created="Fri, 31 Dec 2021 09:09:26 GMT"/>
-						<outline text="if ( lastbackup === null &amp;&amp; lastupload === null) {" created="Wed, 05 Jan 2022 01:12:28 GMT">
-							<outline text="dialog.alert( &quot;🎒 Unable to find date of most recent scan or upload&quot;  )" created="Fri, 10 Dec 2021 03:04:11 GMT" isComment="false"/>
+						<outline text="const rdstatus          = localStorage.getItem( &quot;rd-backups-status&quot; )" created="Fri, 24 Dec 2021 20:33:28 GMT" />
+						<outline text="const status              = rdstatus !== null ? rdstatus : &quot;unknown&quot;" created="Wed, 05 Jan 2022 01:44:57 GMT" />
+						<outline text="const rdlast               = localStorage.getItem( &quot;rd-backups-last&quot; )" created="Fri, 31 Dec 2021 08:59:44 GMT" />
+						<outline text="const lastbackup     = rdlast !== null ? new Date( rdlast ) : null" created="Fri, 31 Dec 2021 09:09:26 GMT" />
+						<outline text="const rdlastupload = localStorage.getItem( &quot;rd-backups-lastupload&quot; )" created="Fri, 31 Dec 2021 08:59:44 GMT" />
+						<outline text="const lastupload     = rdlastupload !== null ? new Date( rdlastupload ) : null" created="Fri, 31 Dec 2021 09:09:26 GMT" />
+						<outline text="if ( lastbackup === null &amp;&amp; lastupload === null) {" created="Wed, 05 Jan 2022 01:12:28 GMT" >
+							<outline text="dialog.alert( &quot;🎒 Unable to find date of most recent scan or upload&quot;  )" created="Fri, 10 Dec 2021 03:04:11 GMT" isComment="false" />
 							</outline>
-						<outline text="} else {" created="Wed, 05 Jan 2022 01:13:33 GMT">
-							<outline text="const sincebackup =  Math.round( date.secondsSince( lastbackup ) )" created="Wed, 05 Jan 2022 01:14:07 GMT"/>
-							<outline text="const sinceupload =  Math.round( date.secondsSince( lastupload ) )" created="Wed, 05 Jan 2022 02:01:07 GMT"/>
-							<outline text="dialog.alert( &quot;🎒 Most recent scan was &quot; + sincebackup + &quot; seconds ago. Last upload was &quot; + sinceupload + &quot; seconds ago: &quot; + status )" created="Fri, 10 Dec 2021 03:04:11 GMT" isComment="false"/>
-							<outline text="}" created="Wed, 05 Jan 2022 01:13:45 GMT"/>
+						<outline text="} else {" created="Wed, 05 Jan 2022 01:13:33 GMT" >
+							<outline text="const sincebackup =  Math.round( date.secondsSince( lastbackup ) )" created="Wed, 05 Jan 2022 01:14:07 GMT" />
+							<outline text="const sinceupload =  Math.round( date.secondsSince( lastupload ) )" created="Wed, 05 Jan 2022 02:01:07 GMT" />
+							<outline text="dialog.alert( &quot;🎒 Most recent scan was &quot; + sincebackup + &quot; seconds ago. Last upload was &quot; + sinceupload + &quot; seconds ago: &quot; + status )" created="Fri, 10 Dec 2021 03:04:11 GMT" isComment="false" />
+							<outline text="}" created="Wed, 05 Jan 2022 01:13:45 GMT" />
 							</outline>
 						</outline>
 					</outline>
-				<outline text="-" created="Wed, 05 Jan 2022 01:08:15 GMT"/>
-				<outline text="Connect to GitHub…" created="Fri, 24 Dec 2021 20:10:43 GMT">
-					<outline text="github.connectViaOauth()" created="Fri, 24 Dec 2021 19:08:36 GMT"/>
+				<outline text="-" created="Wed, 05 Jan 2022 01:08:15 GMT" />
+				<outline text="Connect to GitHub…" created="Fri, 24 Dec 2021 20:10:43 GMT" >
+					<outline text="github.connectViaOauth()" created="Fri, 24 Dec 2021 19:08:36 GMT" />
 					</outline>
-				<outline text="Disconnect from GitHub" created="Fri, 24 Dec 2021 20:10:43 GMT">
-					<outline text="github.disconnect()" created="Fri, 24 Dec 2021 19:08:36 GMT"/>
+				<outline text="Disconnect from GitHub" created="Fri, 24 Dec 2021 20:10:43 GMT" >
+					<outline text="github.disconnect()" created="Fri, 24 Dec 2021 19:08:36 GMT" />
 					</outline>
 				</outline>
-			<outline text="Check for Updates…" created="Tue, 04 Jan 2022 22:48:17 GMT">
-				<outline text="Fetches the latest version of Roady.opml from GitHub and compares version strings." created="Wed, 05 Jan 2022 01:22:11 GMT" isComment="true"/>
-				<outline text="//    &lt;i&gt;Here is the code&lt;/i&gt;" created="Wed, 05 Jan 2022 02:57:58 GMT">
-					<outline text="const roadyversion = &quot;0.2.0&quot;" created="Wed, 05 Jan 2022 05:08:07 GMT"/>
-					<outline text="" created="Tue, 04 Jan 2022 23:18:21 GMT"/>
-					<outline text="const url                 = &quot;https://raw.githubusercontent.com/PostMonsterG/Roady/main/Roady.opml&quot;" created="Tue, 04 Jan 2022 23:11:08 GMT"/>
-					<outline text="const fetched       = http.readUrl( url )" created="Sat, 27 Nov 2021 01:08:54 GMT"/>
-					<outline text="var latestversion = opml.parse( fetched ).opml.head[ &quot;rd-roady-version&quot; ]" created="Sat, 27 Nov 2021 01:10:13 GMT"/>
-					<outline text="console.log( &quot;🎒 0.2.0 — Check for Updates — Fetched version is &quot; + latestversion )" created="Fri, 31 Dec 2021 11:04:11 GMT" isComment="false"/>
-					<outline text="latestversion = latestversion !== undefined ? latestversion : &quot;0.1.1&quot;" created="Tue, 04 Jan 2022 23:24:58 GMT"/>
-					<outline text="" created="Wed, 05 Jan 2022 06:03:25 GMT"/>
-					<outline text="if ( roadyversion == latestversion ) {" created="Tue, 04 Jan 2022 23:11:50 GMT">
-						<outline text="dialog.alert( &quot;🎒 Roady is up to date. Version &quot; + roadyversion + &quot; is the newest version available.&quot; )" created="Tue, 04 Jan 2022 23:28:51 GMT"/>
+			<outline text="Check for Updates…" created="Tue, 04 Jan 2022 22:48:17 GMT" >
+				<outline text="Fetches the latest version of Roady.opml from GitHub and compares version strings." created="Wed, 05 Jan 2022 01:22:11 GMT" isComment="true" />
+				<outline text="//    &lt;i&gt;Here is the code&lt;/i&gt;" created="Wed, 05 Jan 2022 02:57:58 GMT" >
+					<outline text="const roadyversion = &quot;0.3.0&quot;" created="Wed, 05 Jan 2022 05:08:07 GMT" />
+					<outline text="" created="Tue, 04 Jan 2022 23:18:21 GMT" />
+					<outline text="const url                 = &quot;https://raw.githubusercontent.com/PostMonsterG/Roady/main/Roady.opml&quot;" created="Tue, 04 Jan 2022 23:11:08 GMT" />
+					<outline text="const fetched       = http.readUrl( url )" created="Sat, 27 Nov 2021 01:08:54 GMT" />
+					<outline text="var latestversion = opml.parse( fetched ).opml.head[ &quot;rd-roady-version&quot; ]" created="Sat, 27 Nov 2021 01:10:13 GMT" />
+					<outline text="console.log( &quot;🎒 0.3.0 — Check for Updates — Fetched version is &quot; + latestversion )" created="Fri, 31 Dec 2021 11:04:11 GMT" isComment="false" />
+					<outline text="latestversion = latestversion !== undefined ? latestversion : &quot;0.1.1&quot;" created="Tue, 04 Jan 2022 23:24:58 GMT" />
+					<outline text="" created="Wed, 05 Jan 2022 06:03:25 GMT" />
+					<outline text="if ( roadyversion == latestversion ) {" created="Tue, 04 Jan 2022 23:11:50 GMT" >
+						<outline text="dialog.alert( &quot;🎒 Roady is up to date. Version &quot; + roadyversion + &quot; is the newest version available.&quot; )" created="Tue, 04 Jan 2022 23:28:51 GMT" />
 						</outline>
-					<outline text="} else {" created="Tue, 04 Jan 2022 23:28:53 GMT">
-						<outline text="const checker = /(0|[1-9]\d*)\.(0|[1-9]\d*)\.(0|[1-9]\d*)(?:-((?:0|[1-9]\d*|\d*[a-zA-Z-][0-9a-zA-Z-]*)(?:\.(?:0|[1-9]\d*|\d*[a-zA-Z-][0-9a-zA-Z-]*))*))?(?:\+([0-9a-zA-Z-]+(?:\.[0-9a-zA-Z-]+)*))?/i" created="Wed, 05 Jan 2022 02:14:51 GMT"/>
-						<outline text="" created="Wed, 05 Jan 2022 02:57:34 GMT"/>
-						<outline text="const localchunks = roadyversion.match( checker )" created="Wed, 05 Jan 2022 02:16:55 GMT"/>
-						<outline text="const latestchunks = latestversion.match( checker )" created="Thu, 06 Jan 2022 04:32:19 GMT"/>
-						<outline text="" created="Thu, 06 Jan 2022 04:32:37 GMT"/>
-						<outline text="const localmajor = localchunks[1], latestmajor = latestchunks[1]" created="Wed, 05 Jan 2022 02:19:06 GMT"/>
-						<outline text="const localminor = localchunks[2], latestminor = latestchunks[2]" created="Wed, 05 Jan 2022 02:19:27 GMT"/>
-						<outline text="const localpatch = localchunks[3],  latestpatch = latestchunks[3]" created="Wed, 05 Jan 2022 02:49:43 GMT"/>
-						<outline text="" created="Wed, 05 Jan 2022 02:49:43 GMT"/>
-						<outline text="if ( latestmajor &gt; localmajor ) {" created="Wed, 05 Jan 2022 02:20:48 GMT">
-							<outline text="dialog.alert( &quot;🎒 Roady has a major update available, use Help → Get Latest Roady to update from version &quot; + roadyversion + &quot;  to &quot; + latestversion + &quot;.  &quot; )" created="Tue, 04 Jan 2022 23:28:51 GMT"/>
+					<outline text="} else {" created="Tue, 04 Jan 2022 23:28:53 GMT" >
+						<outline text="const checker = /(0|[1-9]\d*)\.(0|[1-9]\d*)\.(0|[1-9]\d*)(?:-((?:0|[1-9]\d*|\d*[a-zA-Z-][0-9a-zA-Z-]*)(?:\.(?:0|[1-9]\d*|\d*[a-zA-Z-][0-9a-zA-Z-]*))*))?(?:\+([0-9a-zA-Z-]+(?:\.[0-9a-zA-Z-]+)*))?/i" created="Wed, 05 Jan 2022 02:14:51 GMT" />
+						<outline text="" created="Wed, 05 Jan 2022 02:57:34 GMT" />
+						<outline text="const localchunks = roadyversion.match( checker )" created="Wed, 05 Jan 2022 02:16:55 GMT" />
+						<outline text="const latestchunks = latestversion.match( checker )" created="Thu, 06 Jan 2022 04:32:19 GMT" />
+						<outline text="" created="Thu, 06 Jan 2022 04:32:37 GMT" />
+						<outline text="const localmajor = localchunks[1], latestmajor = latestchunks[1]" created="Wed, 05 Jan 2022 02:19:06 GMT" />
+						<outline text="const localminor = localchunks[2], latestminor = latestchunks[2]" created="Wed, 05 Jan 2022 02:19:27 GMT" />
+						<outline text="const localpatch = localchunks[3],  latestpatch = latestchunks[3]" created="Wed, 05 Jan 2022 02:49:43 GMT" />
+						<outline text="" created="Wed, 05 Jan 2022 02:49:43 GMT" />
+						<outline text="if ( latestmajor &gt; localmajor ) {" created="Wed, 05 Jan 2022 02:20:48 GMT" >
+							<outline text="dialog.alert( &quot;🎒 Roady has a major update available, use Help → Get Latest Roady to update from version &quot; + roadyversion + &quot;  to &quot; + latestversion + &quot;.  &quot; )" created="Tue, 04 Jan 2022 23:28:51 GMT" />
 							</outline>
-						<outline text="} else if ( latestmajor == localmajor &amp;&amp; latestminor &gt; localminor ) {" created="Wed, 05 Jan 2022 02:27:28 GMT">
-							<outline text="dialog.alert( &quot;🎒 Roady has a new version available, use Help → Get Latest Roady to update from version &quot; + roadyversion + &quot;  to &quot; + latestversion + &quot;.  &quot; )" created="Tue, 04 Jan 2022 23:28:51 GMT"/>
+						<outline text="} else if ( latestmajor == localmajor &amp;&amp; latestminor &gt; localminor ) {" created="Wed, 05 Jan 2022 02:27:28 GMT" >
+							<outline text="dialog.alert( &quot;🎒 Roady has a new version available, use Help → Get Latest Roady to update from version &quot; + roadyversion + &quot;  to &quot; + latestversion + &quot;.  &quot; )" created="Tue, 04 Jan 2022 23:28:51 GMT" />
 							</outline>
-						<outline text="} else if ( latestmajor == localmajor &amp;&amp; latestminor == localminor &amp;&amp; latestpatch &gt; localpatch ) {" created="Wed, 05 Jan 2022 02:27:28 GMT">
-							<outline text="dialog.alert( &quot;🎒 Roady should be updated, please use Help → Get Latest Roady to update from version &quot; + roadyversion + &quot;  to &quot; + latestversion + &quot;.  &quot; )" created="Tue, 04 Jan 2022 23:28:51 GMT"/>
+						<outline text="} else if ( latestmajor == localmajor &amp;&amp; latestminor == localminor &amp;&amp; latestpatch &gt; localpatch ) {" created="Wed, 05 Jan 2022 02:27:28 GMT" >
+							<outline text="dialog.alert( &quot;🎒 Roady should be updated, please use Help → Get Latest Roady to update from version &quot; + roadyversion + &quot;  to &quot; + latestversion + &quot;.  &quot; )" created="Tue, 04 Jan 2022 23:28:51 GMT" />
 							</outline>
-						<outline text="} else if ( latestmajor &lt; localmajor || latestmajor == localmajor &amp;&amp;  latestminor &lt; localminor || latestmajor == localmajor &amp;&amp; latestminor == localminor &amp;&amp;  latestpatch &lt; localpatch ) {" created="Wed, 05 Jan 2022 02:27:28 GMT">
-							<outline text="dialog.alert( &quot;🎒 You are running a newer Roady (&quot; + roadyversion + &quot;) than the currently available version (&quot;+ latestversion +&quot;). That version can be found at Help → Get Latest Roady&quot; )" created="Tue, 04 Jan 2022 23:28:51 GMT"/>
+						<outline text="} else if ( latestmajor &lt; localmajor || latestmajor == localmajor &amp;&amp;  latestminor &lt; localminor || latestmajor == localmajor &amp;&amp; latestminor == localminor &amp;&amp;  latestpatch &lt; localpatch ) {" created="Wed, 05 Jan 2022 02:27:28 GMT" >
+							<outline text="dialog.alert( &quot;🎒 You are running a newer Roady (&quot; + roadyversion + &quot;) than the currently available version (&quot;+ latestversion +&quot;). That version can be found at Help → Get Latest Roady&quot; )" created="Tue, 04 Jan 2022 23:28:51 GMT" />
 							</outline>
-						<outline text="} else {" created="Wed, 05 Jan 2022 02:29:26 GMT">
-							<outline text="dialog.alert( &quot;🎒 You are running a different Roady (&quot; + roadyversion + &quot;) from the latest version (&quot;+ latestversion +&quot;). That version can be found at Help → Get Latest Roady&quot; )" created="Tue, 04 Jan 2022 23:28:51 GMT"/>
-							<outline text="}" created="Wed, 05 Jan 2022 02:30:33 GMT"/>
+						<outline text="} else {" created="Wed, 05 Jan 2022 02:29:26 GMT" >
+							<outline text="dialog.alert( &quot;🎒 You are running a different Roady (&quot; + roadyversion + &quot;) from the latest version (&quot;+ latestversion +&quot;). That version can be found at Help → Get Latest Roady&quot; )" created="Tue, 04 Jan 2022 23:28:51 GMT" />
+							<outline text="}" created="Wed, 05 Jan 2022 02:30:33 GMT" />
 							</outline>
-						<outline text="}" created="Tue, 04 Jan 2022 23:50:55 GMT"/>
-						</outline>
-					</outline>
-				</outline>
-			<outline text="-" created="Sat, 01 Jan 2022 22:40:31 GMT"/>
-			<outline text="Preferences" created="Sat, 01 Jan 2022 22:25:12 GMT" flSubMenu="true">
-				<outline text="Configure GitHub Username…" created="Fri, 24 Dec 2021 20:10:43 GMT">
-					<outline text="Displays a dialog box where you can view and edit the GitHub username for the repository where Roady will save your backups." created="Fri, 31 Dec 2021 03:05:31 GMT" isComment="true"/>
-					<outline text="//    &lt;i&gt;Here is the code&lt;/i&gt;" created="Sat, 01 Jan 2022 21:17:53 GMT">
-						<outline text="&lt;i&gt;Reads and writes from localStorage &lt;/i&gt;" created="Thu, 09 Dec 2021 17:37:10 GMT" isComment="true">
-							<outline text="rd-username" created="Tue, 21 Dec 2021 00:45:24 GMT" isComment="false"/>
-							</outline>
-						<outline text="const username = localStorage.getItem(&quot;rd-username&quot;)" created="Fri, 24 Dec 2021 20:23:51 GMT"/>
-						<outline text="const  answer = dialog.ask( &quot;🎒 GitHub Username&quot;, username, &quot;The username to use when saving or backing up files to GitHub&quot; )" created="Fri, 24 Dec 2021 20:24:41 GMT"/>
-						<outline text="if ( answer !== undefined ) {" created="Fri, 24 Dec 2021 20:26:54 GMT">
-							<outline text="localStorage.setItem( &quot;rd-username&quot;, answer )" created="Fri, 24 Dec 2021 20:27:21 GMT"/>
-							<outline text="}" created="Fri, 24 Dec 2021 20:27:23 GMT"/>
-							</outline>
-						</outline>
-					</outline>
-				<outline text="Configure Backups Repository…" created="Fri, 24 Dec 2021 20:10:43 GMT">
-					<outline text="Displays a dialog box where you can view and edit the GitHub repository where we will save your backups." created="Fri, 31 Dec 2021 03:05:31 GMT" isComment="true"/>
-					<outline text="&lt;i&gt;Important:&lt;/i&gt; Roady cannot tell, and will not warn you, if you upload private files to a public repository." created="Thu, 09 Dec 2021 19:09:01 GMT" isComment="true"/>
-					<outline text="//    &lt;i&gt;Here is the code&lt;/i&gt;" created="Sat, 01 Jan 2022 21:18:21 GMT">
-						<outline text="&lt;i&gt;Reads and writes from localStorage &lt;/i&gt;" created="Thu, 09 Dec 2021 17:37:10 GMT" isComment="true">
-							<outline text="rd-backups-repository" created="Tue, 21 Dec 2021 00:45:24 GMT" isComment="false"/>
-							</outline>
-						<outline text="const repository = localStorage.getItem(&quot;rd-backups-repository&quot;)" created="Fri, 24 Dec 2021 20:23:51 GMT"/>
-						<outline text="const answer = dialog.ask( &quot;🎒 GitHub Backups Repository&quot;, repository, &quot;The repository to use for saving backups to GitHub&quot; )" created="Fri, 24 Dec 2021 20:24:41 GMT"/>
-						<outline text="if ( answer !== undefined ) {" created="Fri, 24 Dec 2021 20:26:54 GMT">
-							<outline text="localStorage.setItem( &quot;rd-backups-repository&quot;, answer )" created="Fri, 24 Dec 2021 20:27:21 GMT"/>
-							<outline text="}" created="Fri, 24 Dec 2021 20:27:23 GMT"/>
-							</outline>
-						</outline>
-					</outline>
-				<outline text="Configure Backups Path…" created="Fri, 24 Dec 2021 20:10:43 GMT">
-					<outline text="Displays a dialog box where you can view and edit the directory where Roady will save your backups." created="Fri, 31 Dec 2021 03:05:31 GMT" isComment="true"/>
-					<outline text="For example, if you set this to &lt;i&gt;backups/sekrit&lt;/i&gt;, a public file named &lt;i&gt;Blackjack.opml&lt;/i&gt; would be saved to the path &lt;i&gt;backups/sekrit/publicFiles/Blackjack.opml&lt;/i&gt;" created="Fri, 31 Dec 2021 02:38:36 GMT" isComment="true"/>
-					<outline text="You can include or omit starting and trailing slashes." created="Fri, 31 Dec 2021 02:40:23 GMT" isComment="true"/>
-					<outline text="//   &lt;b&gt; &lt;/b&gt;&lt;i&gt;Here is the code&lt;/i&gt;" created="Sat, 01 Jan 2022 21:18:33 GMT">
-						<outline text="&lt;i&gt;Reads and writes from localStorage &lt;/i&gt;" created="Thu, 09 Dec 2021 17:37:10 GMT" isComment="true">
-							<outline text="rd-backups-path" created="Tue, 21 Dec 2021 00:45:24 GMT" isComment="false"/>
-							</outline>
-						<outline text="const path = localStorage.getItem(&quot;rd-backups-path&quot;)" created="Fri, 24 Dec 2021 20:23:51 GMT"/>
-						<outline text="const answer = dialog.ask( &quot;🎒 GitHub Backups Path&quot;, path, &quot;The path to use when saving backups to GitHub&quot; )" created="Fri, 24 Dec 2021 20:24:41 GMT"/>
-						<outline text="if ( answer !== undefined ) {" created="Fri, 24 Dec 2021 20:26:54 GMT">
-							<outline text="localStorage.setItem( &quot;rd-backups-path&quot;, answer )" created="Fri, 24 Dec 2021 20:27:21 GMT"/>
-							<outline text="}" created="Fri, 24 Dec 2021 20:27:23 GMT"/>
-							</outline>
+						<outline text="}" created="Tue, 04 Jan 2022 23:50:55 GMT" />
 						</outline>
 					</outline>
 				</outline>
-			<outline text="-" created="Wed, 05 Jan 2022 00:36:56 GMT"/>
-			<outline text="Help" created="Sat, 01 Jan 2022 21:03:03 GMT" flSubMenu="true">
-				<outline text="Read Me" created="Wed, 05 Jan 2022 00:38:58 GMT">
-					<outline text="webBrowser.openUrl( &quot;https://github.com/PostMonsterG/Roady/blob/v0.2.0/README.md&quot; )" created="Wed, 05 Jan 2022 00:22:47 GMT"/>
+			<outline text="-" created="Sat, 01 Jan 2022 22:40:31 GMT" />
+			<outline text="Preferences" created="Sat, 01 Jan 2022 22:25:12 GMT" flSubMenu="true" >
+				<outline text="Configure GitHub Username…" created="Fri, 24 Dec 2021 20:10:43 GMT" >
+					<outline text="Displays a dialog box where you can view and edit the GitHub username for the repository where Roady will save your backups." created="Fri, 31 Dec 2021 03:05:31 GMT" isComment="true" />
+					<outline text="//    &lt;i&gt;Here is the code&lt;/i&gt;" created="Sat, 01 Jan 2022 21:17:53 GMT" >
+						<outline text="&lt;i&gt;Reads and writes from localStorage &lt;/i&gt;" created="Thu, 09 Dec 2021 17:37:10 GMT" isComment="true" >
+							<outline text="rd-username" created="Tue, 21 Dec 2021 00:45:24 GMT" isComment="false" />
+							</outline>
+						<outline text="const username = localStorage.getItem(&quot;rd-username&quot;)" created="Fri, 24 Dec 2021 20:23:51 GMT" />
+						<outline text="const  answer = dialog.ask( &quot;🎒 GitHub Username&quot;, username, &quot;The username to use when saving or backing up files to GitHub&quot; )" created="Fri, 24 Dec 2021 20:24:41 GMT" />
+						<outline text="if ( answer !== undefined ) {" created="Fri, 24 Dec 2021 20:26:54 GMT" >
+							<outline text="localStorage.setItem( &quot;rd-username&quot;, answer )" created="Fri, 24 Dec 2021 20:27:21 GMT" />
+							<outline text="console.log( &quot;🎒 0.3.0 — Configure GitHub Username — &quot; + answer )" created="Fri, 31 Dec 2021 11:04:11 GMT" isComment="false" />
+							<outline text="}" created="Fri, 24 Dec 2021 20:27:23 GMT" />
+							</outline>
+						</outline>
 					</outline>
-				<outline text="Get Latest Roady" created="Wed, 05 Jan 2022 00:28:42 GMT">
-					<outline text="tab.openInstantOutline (&quot;https://raw.githubusercontent.com/PostMonsterG/Roady/main/Roady.opml&quot;) " created="Fri, 19 Feb 2021 14:49:00 GMT"/>
+				<outline text="Configure Backups Repository…" created="Fri, 24 Dec 2021 20:10:43 GMT" >
+					<outline text="Displays a dialog box where you can view and edit the GitHub repository where we will save your backups." created="Fri, 31 Dec 2021 03:05:31 GMT" isComment="true" />
+					<outline text="&lt;i&gt;Important:&lt;/i&gt; Roady cannot tell, and will not warn you, if you upload private files to a public repository." created="Thu, 09 Dec 2021 19:09:01 GMT" isComment="true" />
+					<outline text="//    &lt;i&gt;Here is the code&lt;/i&gt;" created="Sat, 01 Jan 2022 21:18:21 GMT" >
+						<outline text="&lt;i&gt;Reads and writes from localStorage &lt;/i&gt;" created="Thu, 09 Dec 2021 17:37:10 GMT" isComment="true" >
+							<outline text="rd-backups-repository" created="Tue, 21 Dec 2021 00:45:24 GMT" isComment="false" />
+							</outline>
+						<outline text="const repository = localStorage.getItem(&quot;rd-backups-repository&quot;)" created="Fri, 24 Dec 2021 20:23:51 GMT" />
+						<outline text="const answer = dialog.ask( &quot;🎒 GitHub Backups Repository&quot;, repository, &quot;The repository to use for saving backups to GitHub&quot; )" created="Fri, 24 Dec 2021 20:24:41 GMT" />
+						<outline text="if ( answer !== undefined ) {" created="Fri, 24 Dec 2021 20:26:54 GMT" >
+							<outline text="localStorage.setItem( &quot;rd-backups-repository&quot;, answer )" created="Fri, 24 Dec 2021 20:27:21 GMT" />
+							<outline text="console.log( &quot;🎒 0.3.0 — Configure Backups Repository — &quot; + answer )" created="Fri, 31 Dec 2021 11:04:11 GMT" isComment="false" />
+							<outline text="}" created="Fri, 24 Dec 2021 20:27:23 GMT" />
+							</outline>
+						</outline>
 					</outline>
-				<outline text="Roady on GitHub" created="Sat, 01 Jan 2022 21:48:46 GMT">
-					<outline text="webBrowser.openUrl( &quot;https://github.com/PostMonsterG/Roady&quot; )" created="Wed, 05 Jan 2022 00:22:47 GMT"/>
+				<outline text="Configure Backups Path…" created="Fri, 24 Dec 2021 20:10:43 GMT" >
+					<outline text="Displays a dialog box where you can view and edit the directory where Roady will save your backups." created="Fri, 31 Dec 2021 03:05:31 GMT" isComment="true" />
+					<outline text="For example, if you set this to &lt;i&gt;backups/sekrit&lt;/i&gt;, a public file named &lt;i&gt;Blackjack.opml&lt;/i&gt; would be saved to the path &lt;i&gt;backups/sekrit/publicFiles/Blackjack.opml&lt;/i&gt;" created="Fri, 31 Dec 2021 02:38:36 GMT" isComment="true" />
+					<outline text="You can include or omit starting and trailing slashes." created="Fri, 31 Dec 2021 02:40:23 GMT" isComment="true" />
+					<outline text="//   &lt;b&gt; &lt;/b&gt;&lt;i&gt;Here is the code&lt;/i&gt;" created="Sat, 01 Jan 2022 21:18:33 GMT" >
+						<outline text="&lt;i&gt;Reads and writes from localStorage &lt;/i&gt;" created="Thu, 09 Dec 2021 17:37:10 GMT" isComment="true" >
+							<outline text="rd-backups-path" created="Tue, 21 Dec 2021 00:45:24 GMT" isComment="false" />
+							</outline>
+						<outline text="const path = localStorage.getItem(&quot;rd-backups-path&quot;)" created="Fri, 24 Dec 2021 20:23:51 GMT" />
+						<outline text="const answer = dialog.ask( &quot;🎒 GitHub Backups Path&quot;, path, &quot;The path to use when saving backups to GitHub&quot; )" created="Fri, 24 Dec 2021 20:24:41 GMT" />
+						<outline text="if ( answer !== undefined ) {" created="Fri, 24 Dec 2021 20:26:54 GMT" >
+							<outline text="localStorage.setItem( &quot;rd-backups-path&quot;, answer )" created="Fri, 24 Dec 2021 20:27:21 GMT" />
+							<outline text="console.log( &quot;🎒 0.3.0 — Configure Backups Path — &quot; + answer )" created="Fri, 31 Dec 2021 11:04:11 GMT" isComment="false" />
+							<outline text="}" created="Fri, 24 Dec 2021 20:27:23 GMT" />
+							</outline>
+						</outline>
 					</outline>
-				<outline text="Acknowledgements" created="Sat, 01 Jan 2022 21:48:46 GMT">
-					<outline text="webBrowser.openUrl( &quot;https://github.com/PostMonsterG/Roady/blob/main/LICENSE&quot; )" created="Wed, 05 Jan 2022 00:22:47 GMT"/>
+				<outline text="-" created="Fri, 07 Jan 2022 03:46:04 GMT" />
+				<outline text="Exclude Cursor Updates" created="Fri, 07 Jan 2022 03:46:04 GMT" >
+					<outline text="Roady will skip backing up existing OPML files, if the only changes are to the &lt;i&gt;dateModified&lt;/i&gt; and &lt;i&gt;lastCursor&lt;/i&gt; headers." created="Fri, 07 Jan 2022 04:00:38 GMT" isComment="true" />
+					<outline text="//    &lt;i&gt;Here is the code&lt;/i&gt;" created="Sat, 01 Jan 2022 21:18:21 GMT" >
+						<outline text="&lt;i&gt;Writes to localStorage &lt;/i&gt;" created="Thu, 09 Dec 2021 17:37:10 GMT" isComment="true" >
+							<outline text="rd-backups-exclude-lastCursor" created="Tue, 21 Dec 2021 00:45:24 GMT" isComment="false" />
+							</outline>
+						<outline text="localStorage.setItem( &quot;rd-backups-exclude-lastCursor&quot;, true )" created="Fri, 07 Jan 2022 04:17:07 GMT" />
+						<outline text="console.log( &quot;🎒 0.3.0 — Exclude Cursor Updates&quot; )" created="Fri, 31 Dec 2021 11:04:11 GMT" isComment="false" />
+						</outline>
+					</outline>
+				<outline text="Include Cursor Updates" created="Fri, 07 Jan 2022 03:46:22 GMT" >
+					<outline text="Roady will include all modified files in each backup." created="Fri, 07 Jan 2022 04:00:38 GMT" isComment="true" />
+					<outline text="//    &lt;i&gt;Here is the code&lt;/i&gt;" created="Sat, 01 Jan 2022 21:18:21 GMT" >
+						<outline text="&lt;i&gt;Writes to localStorage &lt;/i&gt;" created="Thu, 09 Dec 2021 17:37:10 GMT" isComment="true" >
+							<outline text="rd-backups-exclude-lastCursor" created="Tue, 21 Dec 2021 00:45:24 GMT" isComment="false" />
+							</outline>
+						<outline text="localStorage.setItem( &quot;rd-backups-exclude-lastCursor&quot;, false )" created="Fri, 07 Jan 2022 04:17:07 GMT" />
+						<outline text="console.log( &quot;🎒 0.3.0 — Include Cursor Updates&quot; )" created="Fri, 31 Dec 2021 11:04:11 GMT" isComment="false" />
+						</outline>
+					</outline>
+				<outline text="-" created="Fri, 07 Jan 2022 04:02:37 GMT" />
+				<outline text="Exclude Expansion Updates" created="Fri, 07 Jan 2022 03:46:04 GMT" >
+					<outline text="Roady will skip backing up existing OPML files, if the only changes are to the &lt;i&gt;dateModified&lt;/i&gt; and &lt;i&gt;expansionState&lt;/i&gt; headers." created="Fri, 07 Jan 2022 04:00:38 GMT" isComment="true" />
+					<outline text="//    &lt;i&gt;Here is the code&lt;/i&gt;" created="Sat, 01 Jan 2022 21:18:21 GMT" >
+						<outline text="&lt;i&gt;Writes to localStorage &lt;/i&gt;" created="Thu, 09 Dec 2021 17:37:10 GMT" isComment="true" >
+							<outline text="rd-backups-exclude-expansionState" created="Tue, 21 Dec 2021 00:45:24 GMT" isComment="false" />
+							</outline>
+						<outline text="localStorage.setItem( &quot;rd-backups-exclude-expansionState&quot;, true )" created="Fri, 07 Jan 2022 04:17:07 GMT" />
+						<outline text="console.log( &quot;🎒 0.3.0 — Exclude Expansion Updates&quot; )" created="Fri, 31 Dec 2021 11:04:11 GMT" isComment="false" />
+						</outline>
+					</outline>
+				<outline text="Include Expansion Updates" created="Fri, 07 Jan 2022 03:46:22 GMT" >
+					<outline text="Roady will include all modified files in each backup." created="Fri, 07 Jan 2022 04:00:38 GMT" isComment="true" />
+					<outline text="//    &lt;i&gt;Here is the code&lt;/i&gt;" created="Sat, 01 Jan 2022 21:18:21 GMT" >
+						<outline text="&lt;i&gt;Writes to localStorage &lt;/i&gt;" created="Thu, 09 Dec 2021 17:37:10 GMT" isComment="true" >
+							<outline text="rd-backups-exclude-expansionState" created="Tue, 21 Dec 2021 00:45:24 GMT" isComment="false" />
+							</outline>
+						<outline text="localStorage.setItem( &quot;rd-backups-exclude-expansionState&quot;, false )" created="Fri, 07 Jan 2022 04:17:07 GMT" />
+						<outline text="console.log( &quot;🎒 0.3.0 — Include Expansion Updates&quot; )" created="Fri, 31 Dec 2021 11:04:11 GMT" isComment="false" />
+						</outline>
+					</outline>
+				<outline text="-" created="Fri, 07 Jan 2022 04:02:37 GMT" />
+				<outline text="Upload Tabs as Public Outline" created="Fri, 07 Jan 2022 04:02:39 GMT" >
+					<outline text="When using Upload Current Tab…, Roady will remove the &lt;i&gt;urlUpdateSocket&lt;/i&gt; header from OPML files." created="Fri, 07 Jan 2022 04:06:49 GMT" isComment="true" />
+					<outline text="When the uploaded outline is opened in Drummer, it will appear as a locked, public outline. The tab will have a globe icon. " created="Fri, 07 Jan 2022 04:07:56 GMT" isComment="true" />
+					<outline text="//    &lt;i&gt;Here is the code&lt;/i&gt;" created="Sat, 01 Jan 2022 21:18:21 GMT" >
+						<outline text="&lt;i&gt;Writes to localStorage &lt;/i&gt;" created="Thu, 09 Dec 2021 17:37:10 GMT" isComment="true" >
+							<outline text="rd-uploads-exclude-urlUpdateSocket" created="Tue, 21 Dec 2021 00:45:24 GMT" isComment="false" />
+							</outline>
+						<outline text="localStorage.setItem( &quot;rd-upload-exclude-urlUpdateSocket&quot;, true )" created="Fri, 07 Jan 2022 04:17:07 GMT" />
+						<outline text="console.log( &quot;🎒 0.3.0 — Upload Tabs as Public Outline&quot; )" created="Fri, 31 Dec 2021 11:04:11 GMT" isComment="false" />
+						</outline>
+					</outline>
+				<outline text="Upload Tabs as Instant Outline" created="Fri, 07 Jan 2022 04:03:23 GMT" >
+					<outline text="When using Upload Current Tab…, Roady will not make any changes to the uploaded file." created="Fri, 07 Jan 2022 04:06:49 GMT" isComment="true" />
+					<outline text="When the uploaded outline is opened in Drummer, it will appear as an instant outline. The tab will have a lightning bolt icon. " created="Fri, 07 Jan 2022 04:07:56 GMT" isComment="true" />
+					<outline text="//    &lt;i&gt;Here is the code&lt;/i&gt;" created="Sat, 01 Jan 2022 21:18:21 GMT" >
+						<outline text="&lt;i&gt;Writes to localStorage &lt;/i&gt;" created="Thu, 09 Dec 2021 17:37:10 GMT" isComment="true" >
+							<outline text="rd-uploads-exclude-urlUpdateSocket" created="Tue, 21 Dec 2021 00:45:24 GMT" isComment="false" />
+							</outline>
+						<outline text="localStorage.setItem( &quot;rd-upload-exclude-urlUpdateSocket&quot;, false )" created="Fri, 07 Jan 2022 04:17:07 GMT" />
+						<outline text="console.log( &quot;🎒 0.3.0 — Upload Tabs as Instant Outline&quot; )" created="Fri, 31 Dec 2021 11:04:11 GMT" isComment="false" />
+						</outline>
+					</outline>
+				</outline>
+			<outline text="-" created="Wed, 05 Jan 2022 00:36:56 GMT" />
+			<outline text="Help" created="Sat, 01 Jan 2022 21:03:03 GMT" flSubMenu="true" >
+				<outline text="Read Me" created="Wed, 05 Jan 2022 00:38:58 GMT" >
+					<outline text="webBrowser.openUrl( &quot;https://github.com/PostMonsterG/Roady/blob/v0.3.0/README.md&quot; )" created="Wed, 05 Jan 2022 00:22:47 GMT" />
+					</outline>
+				<outline text="Get Latest Roady" created="Wed, 05 Jan 2022 00:28:42 GMT" >
+					<outline text="tab.openInstantOutline (&quot;https://raw.githubusercontent.com/PostMonsterG/Roady/main/Roady.opml&quot;) " created="Fri, 19 Feb 2021 14:49:00 GMT" />
+					</outline>
+				<outline text="Roady on GitHub" created="Sat, 01 Jan 2022 21:48:46 GMT" >
+					<outline text="webBrowser.openUrl( &quot;https://github.com/PostMonsterG/Roady&quot; )" created="Wed, 05 Jan 2022 00:22:47 GMT" />
+					</outline>
+				<outline text="Acknowledgements" created="Sat, 01 Jan 2022 21:48:46 GMT" >
+					<outline text="webBrowser.openUrl( &quot;https://github.com/PostMonsterG/Roady/blob/main/LICENSE&quot; )" created="Wed, 05 Jan 2022 00:22:47 GMT" />
 					</outline>
 				</outline>
 			</outline>
